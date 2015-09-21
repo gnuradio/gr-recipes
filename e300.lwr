@@ -1,0 +1,10 @@
+inherit: sdk
+source: wget+http://files.ettus.com/e3xx_images/e3xx-release-3/oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
+env:
+  foo: bar
+categories:
+  common:
+   install: make install DESTDIR
+config:
+  bla: blubb
+install: sh ./oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh -y -d $prefix
