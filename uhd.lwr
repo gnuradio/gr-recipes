@@ -20,7 +20,7 @@
 category: hardware
 satisfy:
   deb: uhd-host && libuhd-dev
-source: git://https://github.com/EttusResearch/uhd.git
+source: git+https://github.com/EttusResearch/uhd.git
 gitbranch: master
 #gitbranch: rfnoc-devel
 inherit: cmake

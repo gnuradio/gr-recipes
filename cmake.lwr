@@ -17,7 +17,8 @@
 # Boston, MA 02110-1301, USA.
 #
 
+inherit: empty
 category: baseline
-source: wget://http://www.cmake.org/files/v2.8/cmake-2.8.6.tar.gz
+source: wget+http://www.cmake.org/files/v2.8/cmake-2.8.6.tar.gz
 satisfy:
   deb: (cmake >= 2.8.3) && (cmake-data >= 2.8.3)
