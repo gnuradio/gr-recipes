@@ -1,0 +1,3 @@
+inherit: empty
+satisfy:
+  pip: Mako >= 0.4.2
