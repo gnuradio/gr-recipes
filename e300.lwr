@@ -1,17 +1,40 @@
 inherit: sdk
 config:
-     setup_env: foo
+     setup_env: $PYBOMBS_PREFIX/environment-setup-armv7ahf-vfp-neon-oe-linux-gnueabi
 installdir: .
 #source: wget+http://files.ettus.com/e3xx_images/e3xx-release-3/oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
 source: file+/home/mbant/Downloads/oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
 install: sh ./oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh -y -d $prefix
 clean: [oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh, ]
+categories:
+  application:
+    forcebuild: true
+  common:
+    forcebuild: true
+    install: make install DESTDIR=$PYBOMBS_PREFIX
+  hardware:
+    forcebuild: true
 packages:
   gnuradio:
+    forcebuild: true
     config_filter: |
            cmake .. \
-           -DCMAKE_TOOLCHAIN_FILE=$src_dir/gnuradio/cmake/Toolchains/oe-sdk_cross.cmake \
+           -DCMAKE_TOOLCHAIN_FILE=/usr \
            -DCMAKE_INSTALL_PREFIX=$prefix \
            -DENABLE_GR_VOCODER=OFF -DENABLE_GR_ATSC=OFF \
            -DENABLE_GR_DTV=OFF $config_opt
+config:
+  builddocs: false
+  setup_env: $PYBOMBS_PREFIX/environment-setup-armv7ahf-vfp-neon-oe-linux-gnueabi
+packages:
+  uhd:
+    forceinstalled: true
+  apache-thrift:
+    forceinstalled: true
+  boost:
+    forceinstalled: true
+  cmake:
+    forcebuild: true
+    forceinstalled: true
+    nodeps: true
 
