@@ -18,7 +18,28 @@
 #
 
 depends:
-  - uhd
+- make
+- boost
+- fftw
+- cppunit
+- swig
+- gsl
+- uhd
+- alsa
+- git
+- python
+- cheetah
+- wxpython
+- numpy
+- lxml
+- pygtk
+- pycairo
+- cmake
+- pyqt4
+- pyqwt5
+- gcc
+- apache-thrift
+- liblog4cpp
 category: common
 satisfy:
   deb: gnuradio-dev
@@ -26,7 +47,7 @@ source: git+git@github.com:gnuradio/gnuradio.git
 gitbranch: master
 gitargs: --recursive --depth=1
 vars:
-        config_opt: " -DENABLE_DOXYGEN=$builddocs "
+  config_opt: " -DENABLE_DOXYGEN=$builddocs "
 inherit: cmake
 configure_static: cmake .. -DCMAKE_BUILD_TYPE=$cmakebuildtype -DCMAKE_INSTALL_PREFIX=$prefix -DENABLE_STATIC_LIBS=True $config_opt
 install: |
