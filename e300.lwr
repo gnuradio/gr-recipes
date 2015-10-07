@@ -1,17 +1,28 @@
 inherit: sdk
 config:
-     setup_env: $PYBOMBS_PREFIX/environment-setup-armv7ahf-vfp-neon-oe-linux-gnueabi
+  builddocs: false
+  setup_env: $PYBOMBS_PREFIX/environment-setup-armv7ahf-vfp-neon-oe-linux-gnueabi
 installdir: .
 #source: wget+http://files.ettus.com/e3xx_images/e3xx-release-3/oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
 source: file+/home/mbant/Downloads/oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
 install: sh ./oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh -y -d $prefix
 clean: [oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh, ]
+env:
+  PKG_CONFIG_DIR: $PYBOMBS_PREFIX/lib/pkgconfig:$PYBOMBS_PREFIX/sysroots/armv7ahf-vfp-neon-oe-linux-gnueabi/usr/local/lib/pkgconfig
 categories:
   application:
     forcebuild: true
+  baseline:
+    forceinstalled: true
   common:
     forcebuild: true
-    install: make install DESTDIR=$PYBOMBS_PREFIX
+    configure: |
+            cmake -Wno-dev \
+            -DCMAKE_TOOLCHAIN_FILE=../../gnuradio/cmake/Toolchains/oe-sdk_cross.cmake \
+            -DENABLE_DOXYGEN=OFF \
+            -DCMAKE_INSTALL_PREFIX=/usr/local ../
+    install: make install DESTDIR=$prefix/
+    install_filter: '$command && make install DESTDIR=$prefix/sysroots/armv7ahf-vfp-neon-oe-linux-gnueabi/'
   hardware:
     forcebuild: true
 packages:
@@ -19,14 +30,10 @@ packages:
     forcebuild: true
     config_filter: |
            cmake .. \
-           -DCMAKE_TOOLCHAIN_FILE=/usr \
-           -DCMAKE_INSTALL_PREFIX=$prefix \
+           -DCMAKE_TOOLCHAIN_FILE=../cmake/Toolchains/oe-sdk_cross.cmake \
+           -DCMAKE_INSTALL_PREFIX=/usr \
            -DENABLE_GR_VOCODER=OFF -DENABLE_GR_ATSC=OFF \
            -DENABLE_GR_DTV=OFF $config_opt
-config:
-  builddocs: false
-  setup_env: $PYBOMBS_PREFIX/environment-setup-armv7ahf-vfp-neon-oe-linux-gnueabi
-packages:
   uhd:
     forceinstalled: true
   apache-thrift:
@@ -34,7 +41,24 @@ packages:
   boost:
     forceinstalled: true
   cmake:
-    forcebuild: true
     forceinstalled: true
-    nodeps: true
-
+  autoconf:
+    forceinstalled: true
+  automake:
+    forceinstalled: true
+  curl:
+    forceinstalled: true
+  fftw:
+    forceinstalled: true
+  swig:
+    forceinstalled: true
+  git:
+    forceinstalled: true
+  cppunit:
+    forceinstalled: true
+  cheetah:
+    forceinstalled: true
+  mako:
+    forceinstalled: true
+  wget:
+    forceinstalled: true

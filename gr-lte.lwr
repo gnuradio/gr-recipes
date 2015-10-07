@@ -18,7 +18,11 @@
 #
 
 category: common
-depends: gnuradio
-source: git+https://github.com/kit-cel/gr-lte.git
+depends:
+- gnuradio
+- gr-osmosdr
+- fftw
+description: GNU Radio LTE receiver
 gitbranch: master
 inherit: cmake
+source: git+https://github.com/kit-cel/gr-lte.git

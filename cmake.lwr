@@ -17,8 +17,10 @@
 # Boston, MA 02110-1301, USA.
 #
 
-inherit: empty
+inherit: autoconf
 category: baseline
-source: wget+http://www.cmake.org/files/v2.8/cmake-2.8.6.tar.gz
+depends: wget
 satisfy:
   deb: (cmake >= 2.8.3) && (cmake-data >= 2.8.3)
+  rpm: (cmake >= 2.8.3)
+source: wget+http://www.cmake.org/files/v2.8/cmake-2.8.6.tar.gz
