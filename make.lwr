@@ -17,19 +17,12 @@
 # Boston, MA 02110-1301, USA.
 #
 
+inherit: empty
 category: baseline
-configure: './configure --prefix=$prefix
-
-  '
-install: './make install
-
-  '
-make: 'sh ./build.sh
-
-  '
+configure: ./configure --prefix=$prefix
+install: ./make install
+make: sh ./build.sh
 satisfy:
   deb: (make >= 3.75)
 source: wget+http://ftp.gnu.org/gnu/make/make-3.82.tar.gz
-uninstall: './make uninstall
-
-  '
+uninstall: ./make uninstall

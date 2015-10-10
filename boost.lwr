@@ -18,19 +18,14 @@
 #
 
 category: baseline
-configure: './bootstrap.sh --prefix=$prefix --libdir=$prefix/lib/
-
-  '
+configure: ./bootstrap.sh --prefix=$prefix --libdir=$prefix/lib/
 depends:
 - python
 - libbzip
 - wget
-install: './bjam --threading=multi --layout=tagged link=shared -j$makewidth install
-
-  '
+install: ./bjam --threading=multi --layout=tagged link=shared -j$makewidth install
 install_static: './bjam cxxflags=''-fPIC'' --threading=multi --layout=tagged link=static
   -j$makewidth install
-
   '
 satisfy:
   deb: (libboost1.53-dev && libboost-date-time1.53-dev && libboost-filesystem1.53-dev
