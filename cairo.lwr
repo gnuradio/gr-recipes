@@ -23,7 +23,6 @@ depends:
 - libpng
 - pixman
 - x11
-- wget
 inherit: autoconf
 satisfy:
   deb: libcairo2 >= 1.8.10

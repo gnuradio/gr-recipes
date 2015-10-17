@@ -20,7 +20,6 @@
 category: baseline
 depends:
 - curl
-- wget
 inherit: autoconf
 install: 'make install
 

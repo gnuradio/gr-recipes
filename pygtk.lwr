@@ -25,7 +25,6 @@ depends:
 - pygobject
 - pango
 - cairo
-- wget
 inherit: autoconf
 install_like: gtk2
 satisfy:

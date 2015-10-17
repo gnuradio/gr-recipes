@@ -18,8 +18,6 @@
 #
 
 category: baseline
-depends:
-- wget
 inherit: autoconf
 satisfy:
   deb: flex >= 2.5.35

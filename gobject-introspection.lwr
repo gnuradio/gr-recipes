@@ -26,7 +26,6 @@ depends:
 - pycairo
 - flex
 - bison
-- wget
 inherit: autoconf
 satisfy:
   deb: gobject-introspection >= 0.10.2

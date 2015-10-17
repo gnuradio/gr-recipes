@@ -18,15 +18,11 @@
 #
 
 category: baseline
-configure: 'python configure.py --confirm-license -b $prefix/bin -d $prefix/lib/python2.6/site-packages/
-  -v $prefix/share/sip/
-
-  '
+configure: python configure.py --confirm-license -b $prefix/bin -d $prefix/lib/python2.6/site-packages/ -v $prefix/share/sip/
 depends:
 - python
 - sip
 - qt4
-- wget
 inherit: autoconf
 install_like: qt4
 satisfy:

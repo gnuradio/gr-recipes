@@ -19,11 +19,11 @@
 
 category: baseline
 depends:
-- wget
 - mpc
 inherit: autoconf
-install: "make install\nln -s $prefix/bin/fortran-gfortran $prefix/bin/gfortran  \
-  \  \n"
+install: |
+  make install
+  ln -s $prefix/bin/fortran-gfortran $prefix/bin/gfortran
 satisfy:
   deb: gfortran >= 4.5.2
   rpm: gcc-gfortran >= 4.5.2

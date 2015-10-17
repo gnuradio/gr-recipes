@@ -22,7 +22,6 @@ depends:
 - libpng
 - freetype
 - python
-- wget
 inherit: autoconf
 satisfy:
   deb: graphviz

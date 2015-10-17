@@ -20,7 +20,6 @@
 category: baseline
 depends:
 - python
-- wget
 inherit: distutils
 satisfy:
   deb: python-cheetah >= 2.0

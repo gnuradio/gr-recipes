@@ -24,7 +24,6 @@ configure: 'python configure.py -b $prefix/bin -e $prefix/include/ -d $prefix/li
   '
 depends:
 - python
-- wget
 inherit: autoconf
 install_like: python
 satisfy:

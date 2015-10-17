@@ -23,8 +23,6 @@ configure: 'cd build_unix/
   ../dist/configure --enable-cxx --prefix=$prefix --libdir=$prefix/lib64
 
   '
-depends:
-- wget
 inherit: autoconf
 install: 'cd build_unix/
 

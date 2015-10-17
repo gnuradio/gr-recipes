@@ -18,11 +18,9 @@
 #
 
 category: dsplib
-configure: 'autoreconf -i
-
+configure: |
+  autoreconf -i
   ./configure --prefix=$prefix $config_opt
-
-  '
 depends:
 - fftw
 - autoconf
@@ -31,3 +29,4 @@ depends:
 gitbranch: master
 inherit: autoconf
 source: git+git://git.osmocom.org/libosmo-dsp
+installdir: .

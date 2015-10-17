@@ -24,7 +24,6 @@ configure: './waf configure --prefix=$prefix
 depends:
 - cairo
 - python
-- wget
 install: './waf install
 
   '

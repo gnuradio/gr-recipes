@@ -22,7 +22,6 @@ depends:
 - libtool
 - automake
 - gcc
-- wget
 inherit: autoconf
 satisfy:
   deb: liblog4cpp5 && liblog4cpp5-dev

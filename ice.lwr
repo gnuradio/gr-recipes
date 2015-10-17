@@ -25,7 +25,6 @@ depends:
 - libbzip
 - expat
 - python
-- wget
 - ssl
 make: 'cd cpp && prefix=$prefix DB_HOME=$prefix MCPP_HOME=$prefix EXPAT_HOME=$prefix
   make -j$makewidth prefix=$prefix && prefix=$prefix make install &&

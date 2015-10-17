@@ -19,7 +19,6 @@
 
 category: baseline
 depends:
-- wget
 - curl
 inherit: autoconf
 satisfy:

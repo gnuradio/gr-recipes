@@ -53,7 +53,6 @@ depends:
 - qwt5
 - pyqt4
 - sip
-- wget
 inherit: autoconf
 install_like: qwt5
 installdir: configure/

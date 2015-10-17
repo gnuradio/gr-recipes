@@ -21,7 +21,6 @@ category: baseline
 depends:
 - python
 - swig
-- wget
 inherit: autoconf
 satisfy:
   deb: libffi6

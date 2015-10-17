@@ -21,7 +21,6 @@ category: baseline
 depends:
 - bison
 - flex
-- wget
 - gtk2
 - perl
 - libpcap

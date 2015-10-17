@@ -21,7 +21,7 @@ category: baseline
 depends:
 - python
 - swig
-- wget
+
 inherit: distutils
 satisfy:
   deb: python-numpy >= 1.5

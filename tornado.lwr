@@ -21,7 +21,6 @@ category: baseline
 depends:
 - python
 - setuptools
-- wget
 inherit: setuptools
 satisfy:
   deb: python-tornado >= 2.4

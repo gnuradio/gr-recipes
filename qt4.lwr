@@ -18,8 +18,6 @@
 #
 
 category: baseline
-depends:
-- wget
 inherit: autoconf
 satisfy:
   deb: libqt4-dev >= 4.6.2

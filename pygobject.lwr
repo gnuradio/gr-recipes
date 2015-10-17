@@ -23,7 +23,6 @@ depends:
 - swig
 - gobject-introspection
 - gtk2
-- wget
 inherit: autoconf
 install_like: gobject-introspection
 satisfy:

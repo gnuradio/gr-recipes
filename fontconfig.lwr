@@ -20,7 +20,6 @@
 category: baseline
 depends:
 - freetype
-- wget
 inherit: autoconf
 satisfy:
   deb: libfontconfig1-dev >= 2.4.2

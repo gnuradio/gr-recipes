@@ -18,8 +18,6 @@
 #
 
 category: baseline
-depends:
-- wget
 inherit: autoconf
 satisfy:
   deb: libatk1.0-0 >= 1.29.2

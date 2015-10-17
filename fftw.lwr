@@ -18,8 +18,6 @@
 #
 
 category: baseline
-depends:
-- wget
 inherit: autoconf
 satisfy:
   deb: libfftw3-3 && libfftw3-dev

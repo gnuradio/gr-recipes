@@ -23,7 +23,6 @@ depends:
 - libxml
 - libxslt
 - setuptools
-- wget
 inherit: distutils
 satisfy:
   deb: python-lxml >= 2.3.2

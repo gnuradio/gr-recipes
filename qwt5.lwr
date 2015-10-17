@@ -23,7 +23,6 @@ configure: "cp qwtconfig.pri qwtconfig.pri.orig && \\\nsed 's/\\/usr\\/local\\/q
   \ \\\nqmake \n"
 depends:
 - qt4
-- wget
 inherit: autoconf
 make: "make    \n"
 satisfy:

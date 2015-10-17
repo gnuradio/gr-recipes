@@ -20,7 +20,6 @@
 category: baseline
 depends:
 - cairo
-- wget
 inherit: autoconf
 satisfy:
   deb: libpango1.0-0 >= 1.28
