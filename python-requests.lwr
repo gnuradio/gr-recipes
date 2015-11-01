@@ -19,5 +19,6 @@
 
 category: baseline
 satisfy:
+  pip: requests
   deb: python-requests
   rpm: python-requests
