@@ -22,7 +22,6 @@ depends:
 - gtk2
 - python
 - swig
-- wget
 inherit: autoconf
 install: 'make install && \
 
