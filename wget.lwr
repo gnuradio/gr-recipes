@@ -21,3 +21,4 @@ category: baseline
 satisfy:
   deb: wget
   rpm: wget
+  cmd: wget

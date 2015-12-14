@@ -27,6 +27,7 @@ install: |
 satisfy:
   deb: gfortran >= 4.5.2
   rpm: gcc-gfortran >= 4.5.2
+  cmd: gfortran --version >= 4.5.2
 source: wget+http://www.netgull.com/gcc/releases/gcc-4.5.2/gcc-4.5.2.tar.bz2
 var:
   config_opt: ' --with-gmp=$prefix --with-mpfr=$prefix --disable-multilib --with-mpc=$prefix

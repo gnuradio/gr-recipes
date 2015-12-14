@@ -22,4 +22,5 @@ inherit: autoconf
 satisfy:
   deb: flex >= 2.5.35
   rpm: flex >= 2.5.35
+  cmd: flex --version >= 2.5.35
 source: wget+http://prdownloads.sourceforge.net/flex/flex-2.5.35.tar.bz2

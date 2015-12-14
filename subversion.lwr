@@ -22,3 +22,4 @@ depends: null
 satisfy:
   deb: subversion
   rpm: subversion
+  cmd: subversion --version

@@ -18,11 +18,7 @@
 #
 
 category: application
-configure: '# you probably don''t need BOOST_SUFFIX=-mt
-
-  qmake BOOST_SUFFIX=
-
-  '
+configure: qmake BOOST_SUFFIX=
 depends:
 - gnuradio
 - gr-osmosdr
@@ -30,15 +26,10 @@ depends:
 - qt4
 gitbranch: master
 inherit: empty
-install: 'cp gqrx $prefix/bin/
-
-  '
-make: 'make -j$makewidth
-
-  '
+install: cp gqrx $prefix/bin/
+make: make -j$makewidth
 satisfy:
   deb: gqrx-sdr
+  cmd: gqrx
 source: git+https://github.com/csete/gqrx.git
-uninstall: 'rm $prefix/bin/gqrx
-
-  '
+uninstall: rm $prefix/bin/gqrx

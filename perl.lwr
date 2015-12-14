@@ -21,3 +21,4 @@ category: baseline
 satisfy:
   deb: perl
   rpm: perl
+  cmd: perl --version >= 5.0.0
