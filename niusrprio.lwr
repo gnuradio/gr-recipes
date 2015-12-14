@@ -22,7 +22,5 @@ depends:
 - make
 - swig
 - python
-make: 'sudo ./INSTALL
-
-  '
+make: 'sudo ./INSTALL'
 source: wget+http://files.ettus.com/binaries/niusrprio/niusrprio-installer.tar.gz
