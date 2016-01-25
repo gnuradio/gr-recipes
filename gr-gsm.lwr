@@ -29,9 +29,7 @@ description: Gnuradio blocks and tools for receiving GSM transmissions
 gitbranch: master
 inherit: cmake
 install: 'make install
-
   ldconfig || true
-
   '
 installdir: build
 makedir: build

@@ -20,7 +20,7 @@
 category: baseline
 inherit: autoconf
 satisfy:
-  deb: (libcppunit-1.12-1 || libcppunit-1.13-0) && libcppunit-dev
+  deb: libcppunit-dev
   rpm: cppunit-devel
 source: wget+http://prdownloads.sourceforge.net/cppunit/cppunit-1.12.1.tar.gz
 var:

@@ -18,6 +18,18 @@
 #
 
 category: hardware
+depends:
+  - swig
+  - python-requests
+  - libusb
+  - git
+  - cmake
+  - mako
+  - boost
+  - gsl
+  - numpy
+  - cppunit
+  - fftw
 satisfy:
   deb: uhd-host && libuhd-dev
   pkgconfig: uhd

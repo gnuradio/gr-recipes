@@ -30,4 +30,7 @@ depends:
 - automake
 gitbranch: master
 inherit: autoconf
+satisfy:
+  deb: libsodium-dev
+  rpm: libsodium-devel
 source: git+https://github.com/jedisct1/libsodium.git

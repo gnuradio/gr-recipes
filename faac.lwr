@@ -20,4 +20,4 @@
 category: baseline
 satisfy:
   deb: libfaac-dev && libfaac0
-  rpm: libfaac-devel
+  rpm: faac-devel

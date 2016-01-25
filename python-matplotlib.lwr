@@ -24,3 +24,4 @@ depends:
 description: Python based plotting system in a style similar to Matlab.
 satisfy:
   deb: python-matplotlib
+  rpm: python-matplotlib

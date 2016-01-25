@@ -17,11 +17,10 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: baseline
+category: application
 depends:
-- wget
-inherit: autoconf
-satisfy:
-  deb: libzmq3-dev
-  rpm: cppzmq-devel
-source: wget+http://download.zeromq.org/zeromq-3.2.4.tar.gz
+- gnuradio
+description: recorded data browser
+gitbranch: master
+inherit: cmake
+source: git+https://github.com/miek/inspectrum.git

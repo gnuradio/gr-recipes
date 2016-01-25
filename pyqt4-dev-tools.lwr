@@ -22,3 +22,4 @@ depends:
 - pyqt4
 satisfy:
   deb: pyqt4-dev-tools
+  rpm: pyqt4-devel

@@ -21,6 +21,7 @@ category: common
 depends:
 - gnuradio
 - uhd
+- gr-foo
 description: IEEE 802.15.4 ZigBee Transceiver
 gitbranch: master
 inherit: cmake

@@ -20,4 +20,5 @@
 category: baseline
 satisfy:
   deb: libpulse-dev >= 1.1 && pulseaudio
-  rpm: ((libpulse-devel >= 1.1) || (libpulseaudio-devel >= 1.1))
+  rpm: ((libpulse-devel >= 1.1) || (libpulseaudio-devel >= 1.1) || (pulseaudio-libs-devel
+    >= 6.0) )

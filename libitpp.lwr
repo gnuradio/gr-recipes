@@ -18,5 +18,8 @@
 #
 
 category: baseline
+inherit: autoconf
 satisfy:
-  deb: (libitpp7 || libitpp8) && libitpp-dev
+  deb: libitpp-dev
+  rpm: itpp-devel
+source: wget+http://downloads.sourceforge.net/project/itpp/itpp/4.3.1/itpp-4.3.1.tar.bz2

@@ -20,3 +20,4 @@
 category: baseline
 satisfy:
   deb: python-scapy
+  rpm: scapy

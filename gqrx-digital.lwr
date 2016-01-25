@@ -21,13 +21,13 @@ category: application
 configure: 'qmake -recursive BOOST_SUFFIX= INCLUDEPATH="../../gr-dsd/dsd $prefix/include/osmo-tetra
   $prefix/include/dsd $prefix/include ../../osmo-tetra/src" DEPENDPATH="$prefix/lib
   $prefix/include/dsd" LIBS+="-Xlinker -zmuldefs"
-
   '
 depends:
 - gnuradio
 - gr-osmosdr
 - pulseaudio
 - qt4
+- qt5
 - libosmocore
 - osmo-tetra
 - libshout
@@ -35,9 +35,7 @@ depends:
 gitbranch: digital
 inherit: empty
 install: 'mv gqrx gqrx-digital
-
   cp gqrx-digital $prefix/bin/
-
   '
 make: "make -j$makewidth \n"
 source: git+https://github.com/kantooon/gqrx_fork.git

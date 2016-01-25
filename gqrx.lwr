@@ -18,18 +18,16 @@
 #
 
 category: application
-configure: qmake BOOST_SUFFIX=
 depends:
 - gnuradio
 - gr-osmosdr
 - pulseaudio
 - qt4
+- qt5
 gitbranch: master
-inherit: empty
-install: cp gqrx $prefix/bin/
-make: make -j$makewidth
+inherit: cmake
+install: 'cp src/gqrx $prefix/bin/'
 satisfy:
   deb: gqrx-sdr
-  cmd: gqrx
 source: git+https://github.com/csete/gqrx.git
-uninstall: rm $prefix/bin/gqrx
+uninstall: 'rm $prefix/bin/gqrx'

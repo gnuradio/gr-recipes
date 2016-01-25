@@ -24,6 +24,7 @@ install: ./make install
 make: sh ./build.sh
 satisfy:
   deb: (make >= 3.75)
+  rpm: (make >= 3.75)
   cmd: make --version >= 3.75
 source: wget+http://ftp.gnu.org/gnu/make/make-3.82.tar.gz
 uninstall: ./make uninstall

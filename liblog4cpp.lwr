@@ -22,9 +22,10 @@ depends:
 - libtool
 - automake
 - gcc
+- wget
 inherit: autoconf
 satisfy:
-  deb: liblog4cpp5 && liblog4cpp5-dev
+  deb: liblog4cpp5-dev
   rpm: log4cpp-devel && log4cpp
 source: wget+http://prdownloads.sourceforge.net/log4cpp/log4cpp-1.1.1.tar.gz
 var:

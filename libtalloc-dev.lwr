@@ -19,9 +19,11 @@
 
 category: baseline
 depends:
-- wget
+- git
+- make
+- libtool
 inherit: autoconf
 satisfy:
-  deb: libzmq3-dev
-  rpm: cppzmq-devel
-source: wget+http://download.zeromq.org/zeromq-3.2.4.tar.gz
+  deb: libtalloc-dev >= 2.0.1
+  rpm: libtalloc-devel >= 2.0.1
+source: git+git://anonscm.debian.org/pkg-samba/talloc.git

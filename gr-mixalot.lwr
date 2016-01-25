@@ -25,4 +25,4 @@ depends:
 description: Gnuradio pager encoder
 gitbranch: master
 inherit: cmake
-source: git+https://github.com/ckuethe/gr-mixalot.git
+source: git+https://github.com/unsynchronized/gr-mixalot.git

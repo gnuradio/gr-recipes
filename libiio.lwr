@@ -22,7 +22,7 @@ depends:
 - libxml
 - cmake
 - git
-gitrev: tags/v0.5
+gitrev: 2015_R1
 inherit: cmake
 satisfy:
   deb: libiio0 >= 0.5 && libiio-dev >= 0.5

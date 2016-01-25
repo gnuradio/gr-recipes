@@ -17,11 +17,10 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: baseline
+category: common
 depends:
-- wget
-inherit: autoconf
-satisfy:
-  deb: libzmq3-dev
-  rpm: cppzmq-devel
-source: wget+http://download.zeromq.org/zeromq-3.2.4.tar.gz
+- gnuradio
+description: Utilities to help with reverse engineering RF protocols
+gitbranch: master
+inherit: cmake
+source: git+https://github.com/tkuester/gr-reveng.git
