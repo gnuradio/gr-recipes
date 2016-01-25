@@ -40,5 +40,4 @@ install: 'mv gqrx gqrx-digital
 make: "make -j$makewidth \n"
 source: git+https://github.com/kantooon/gqrx_fork.git
 uninstall: 'rm $prefix/bin/gqrx-digital
-
   '
