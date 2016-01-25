@@ -18,13 +18,13 @@
 #
 
 category: baseline
-configure: './bootstrap.sh && ./configure --prefix=$prefix \
-  --with-c_glib --with-cpp --with-libevent --with-python \
-  --without-csharp --without-d --without-erlang --without-go \
-  --without-haskell --without-java --without-lua --without-nodejs \
-  --without-perl --without-php --without-ruby --without-zlib \
-  --without-qt4 --without-qt5 \
-  --disable-tests --disable-tutorial $config_opt \
+configure: './bootstrap.sh && ./configure --prefix=$prefix
+  --with-c_glib --with-cpp --with-libevent --with-python
+  --without-csharp --without-d --without-erlang --without-go
+  --without-haskell --without-java --without-lua --without-nodejs
+  --without-perl --without-php --without-ruby --without-zlib
+  --without-qt4 --without-qt5
+  --disable-tests --disable-tutorial $config_opt
   CC=$cc CXX=$cxx PY_PREFIX=$prefix CXXFLAGS="-DNDEBUG"
   '
 depends:
