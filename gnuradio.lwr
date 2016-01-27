@@ -43,7 +43,7 @@ depends:
 category: common
 satisfy:
   deb: gnuradio-dev
-source: git+git@github.com:gnuradio/gnuradio.git
+source: git+https://github.com/gnuradio/gnuradio.git
 gitbranch: master
 gitargs: --recursive --depth=1
 vars:
