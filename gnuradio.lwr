@@ -45,7 +45,7 @@ satisfy:
   deb: gnuradio-dev
 source: git+https://github.com/gnuradio/gnuradio.git
 gitbranch: master
-gitargs: --recursive --depth=1
+gitargs: --recursive
 vars:
   config_opt: " -DENABLE_DOXYGEN=$builddocs "
 inherit: cmake
