@@ -23,7 +23,7 @@ depends:
 - python
 - libbzip
 install: cd .. && ./bjam --threading=multi --layout=tagged link=shared -j$makewidth install --build-dir=build
-install_static: 'cd && ./bjam cxxflags=''-fPIC'' --threading=multi --layout=tagged link=static
+install_static: 'cd .. && ./bjam cxxflags=''-fPIC'' --threading=multi --layout=tagged link=static
   -j$makewidth install --build-dir=build
   '
 satisfy:
