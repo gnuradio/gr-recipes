@@ -38,6 +38,7 @@ depends:
 - python
 - ssl
 - pkg-config
+- twisted
 gitrev: 0.9.3
 inherit: bootstrapautoconf
 source: git+https://github.com/apache/thrift.git
