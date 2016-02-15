@@ -18,11 +18,8 @@
 #
 
 category: baseline
-depends:
-- python
-- setuptools
-inherit: setuptools
+depends: null
 satisfy:
-  deb: python-tornado >= 2.4
-  rpm: python-tornado >= 2.4
-source: wget+https://github.com/downloads/facebook/tornado/tornado-2.4.tar.gz
+  deb: python-twisted
+  rpm: python-twisted
+  cmd: trial
