@@ -23,5 +23,5 @@ satisfy:
   deb: libqt4-dev >= 4.6.2
   rpm: qt-devel >= 4.6.2 || qt4-devel >= 4.6.2
 source: wget+ftp://ftp.qt.nokia.com/qt/source/qt-everywhere-opensource-src-4.6.2.tar.gz
-var:
+vars:
   config_opt: -opensource --confirm-license -L$prefix/lib -L$prefix/lib64

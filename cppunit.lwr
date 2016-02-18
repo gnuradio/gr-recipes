@@ -23,5 +23,5 @@ satisfy:
   deb: libcppunit-dev
   rpm: cppunit-devel
 source: wget+http://prdownloads.sourceforge.net/cppunit/cppunit-1.12.1.tar.gz
-var:
+vars:
   config_opt: LIBS=-ldl

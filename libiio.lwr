@@ -27,5 +27,5 @@ inherit: cmake
 satisfy:
   deb: libiio0 >= 0.5 && libiio-dev >= 0.5
 source: git+https://github.com/analogdevicesinc/libiio
-var:
+vars:
   config_opt: ' -DWITH_IIOD:BOOL=OFF '

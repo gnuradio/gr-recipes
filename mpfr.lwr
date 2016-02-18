@@ -25,5 +25,5 @@ satisfy:
   deb: libmpfr-dev >= 3.0.0
   rpm: mpfr-devel >= 3.0.0
 source: wget+http://www.mpfr.org/mpfr-3.0.0/mpfr-3.0.0.tar.gz
-var:
+vars:
   config_opt: ' --with-gmp-include=$prefix/include/ --with-gmp-lib=$prefix/lib/ '

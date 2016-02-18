@@ -34,5 +34,5 @@ satisfy:
 source:
 - file+dist/mcpp_2.7.2.orig.tar.gz
 - wget+http://aptproxy.willowgarage.com/archive.ubuntu.com/ubuntu/pool/universe/m/mcpp/mcpp_2.7.2.orig.tar.gz
-var:
+vars:
   config_opt: ' --enable-mcpplib '

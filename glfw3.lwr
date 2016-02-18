@@ -25,5 +25,5 @@ inherit: cmake
 satisfy:
   deb: libglfw3-dev
 source: git+https://github.com/glfw/glfw
-var:
+vars:
   config_opt: ' -DBUILD_SHARED_LIBS=true '

@@ -22,5 +22,5 @@ inherit: autoconf
 satisfy:
   deb: google-perftools
 source: wget+http://gperftools.googlecode.com/files/gperftools-2.0.tar.gz
-var:
+vars:
   config_opt: ' --enable-frame-pointers '

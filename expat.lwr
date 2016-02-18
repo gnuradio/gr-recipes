@@ -23,5 +23,5 @@ satisfy:
   deb: libexpat1-dev >= 2.0.1
   rpm: expat-devel >= 2.0.1
 source: wget+http://downloads.sourceforge.net/project/expat/expat/2.0.1/expat-2.0.1.tar.gz
-var:
+vars:
   config_opt: ' --libdir=$prefix/lib64 '

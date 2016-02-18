@@ -30,5 +30,5 @@ makedir: host/build
 satisfy:
   deb: hackrf
 source: git+https://github.com/mossmann/hackrf.git
-var:
+vars:
   config_opt: ' -DINSTALL_UDEV_RULES=OFF'
