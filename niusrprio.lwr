@@ -19,4 +19,6 @@
 
 category: hardware
 make: 'sudo ./INSTALL'
+make_interactive: True
+installdir: ./
 source: wget+http://files.ettus.com/binaries/niusrprio/niusrprio-installer.tar.gz
