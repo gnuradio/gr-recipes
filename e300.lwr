@@ -3,8 +3,8 @@ config:
   builddocs: false
   setup_env: $PYBOMBS_PREFIX/environment-setup-armv7ahf-vfp-neon-oe-linux-gnueabi
 installdir: .
-#source: wget+http://files.ettus.com/e3xx_images/e3xx-release-3/oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
-source: file+/home/mbant/Downloads/oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
+source: wget+http://files.ettus.com/e4xx_images/e3xx-release-4/oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
+#source: file+/path/to/oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
 install: sh ./oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh -y -d $prefix
 clean: [oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh, ]
 env:
