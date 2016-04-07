@@ -22,6 +22,7 @@ inherit: autoconf
 satisfy:
   deb: libcppunit-dev
   rpm: cppunit-devel
+  pacman: cppunit
 source: wget+http://prdownloads.sourceforge.net/cppunit/cppunit-1.12.1.tar.gz
 vars:
   config_opt: LIBS=-ldl

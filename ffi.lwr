@@ -25,4 +25,5 @@ inherit: autoconf
 satisfy:
   deb: libffi6
   rpm: libffi-devel
+  pacman: libffi
 source: wget+ftp://sourceware.org/pub/libffi/libffi-3.0.9.tar.gz

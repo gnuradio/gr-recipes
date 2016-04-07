@@ -22,3 +22,4 @@ depends: null
 satisfy:
   deb: libjpeg-turbo8-dev || libjpeg62-dev || libjpeg62-turbo-dev
   rpm: libjpeg-devel || libjpeg-turbo-devel
+  pacman: libjpeg-turbo

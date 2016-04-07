@@ -34,4 +34,5 @@ make: './waf build
 satisfy:
   deb: python-cairo-dev >= 1.8
   rpm: pycairo-devel >= 1.8
+  pacman: python2-cairo >= 1.8
 source: wget+http://cairographics.org/releases/py2cairo-1.8.10.tar.gz

@@ -22,3 +22,4 @@ satisfy:
   deb: wget
   rpm: wget
   cmd: wget
+  pacman: wget
