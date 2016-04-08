@@ -44,6 +44,7 @@ depends:
 category: common
 satisfy:
   deb: gnuradio-dev
+  pacman: gnuradio
 source: git+https://github.com/gnuradio/gnuradio.git
 gitbranch: master
 gitargs: --recursive

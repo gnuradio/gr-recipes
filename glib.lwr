@@ -22,4 +22,5 @@ inherit: autoconf
 satisfy:
   deb: libglib2.0-dev >= 2.27.2
   rpm: glib2-devel >= 2.27.2
+  pacman: glib2 >= 2.27.2
 source: wget+http://ftp.gnome.org/pub/gnome/sources/glib/2.27/glib-2.27.2.tar.bz2

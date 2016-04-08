@@ -23,4 +23,5 @@ depends:
 inherit: autoconf
 satisfy:
   deb: libhidapi-dev
+  pacman: hidapi
 source: git+https://github.com/signal11/hidapi.git

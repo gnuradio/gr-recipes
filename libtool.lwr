@@ -21,3 +21,4 @@ category: baseline
 satisfy:
   deb: libtool
   rpm: libtool
+  pacman: libtool

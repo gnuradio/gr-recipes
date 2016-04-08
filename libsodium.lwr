@@ -33,4 +33,5 @@ inherit: autoconf
 satisfy:
   deb: libsodium-dev
   rpm: libsodium-devel
+  pacman: libsodium
 source: git+https://github.com/jedisct1/libsodium.git

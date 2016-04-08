@@ -21,3 +21,4 @@ category: baseline
 satisfy:
   deb: libfaad-dev
   rpm: libfaad-devel
+  pacman: faad2

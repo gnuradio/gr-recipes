@@ -23,5 +23,6 @@ satisfy:
   deb: python2.7 && python-dev
   rpm: python-devel >= 2.7
   cmd: python --version >= 2.7
+  pacman: python2 >= 2.7
 vars:
   config_opt: --enable-shared

@@ -21,3 +21,4 @@ category: baseline
 satisfy:
   deb: pkg-config
   rpm: pkgconfig
+  pacman: pkg-config
