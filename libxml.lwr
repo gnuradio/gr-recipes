@@ -22,4 +22,4 @@ inherit: autoconf
 satisfy:
   deb: libxml2-dev >= 2.7
   rpm: libxml2-devel >= 2.7
-source: wget+ftp://xmlsoft.org/libxml2/libxml2-2.7.2.tar.gz
+source: wget+http://xmlsoft.org/sources/libxml2-2.7.2.tar.gz
