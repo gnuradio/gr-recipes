@@ -25,6 +25,6 @@ inherit: autoconf
 satisfy:
   deb: swig2.0
   rpm: swig >= 2.0
-source: http://prdownloads.sourceforge.net/swig/swig-2.0.4.tar.gz
+source: wget+http://prdownloads.sourceforge.net/swig/swig-2.0.4.tar.gz
 vars:
   config_opt: --without-pcre

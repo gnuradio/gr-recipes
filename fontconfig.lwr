@@ -24,4 +24,4 @@ inherit: autoconf
 satisfy:
   deb: libfontconfig1-dev >= 2.4.2
   rpm: fontconfig-devel >= 2.4.2
-source: http://fontconfig.org/release/fontconfig-2.9.0.tar.gz
+source: wget+http://fontconfig.org/release/fontconfig-2.9.0.tar.gz

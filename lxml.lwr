@@ -27,4 +27,4 @@ inherit: distutils
 satisfy:
   deb: python-lxml >= 2.3.2
   rpm: python-lxml >= 2.3.2
-source: http://lxml.de/files/lxml-2.3.3.tgz
+source: wget+http://lxml.de/files/lxml-2.3.3.tgz

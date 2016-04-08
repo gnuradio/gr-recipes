@@ -28,4 +28,4 @@ install_like: qt4
 satisfy:
   deb: ( python-qt4 >= 4.6.2 ) && ( pyqt4-dev-tools >= 4.6.2 )
   rpm: PyQt4-devel >= 4.6.2
-source: http://pkgs.fedoraproject.org/repo/pkgs/PyQt4/PyQt-x11-gpl-4.7.2.tar.gz/e7782e9146ec8aa0e76bcdb0ca5b9491/PyQt-x11-gpl-4.7.2.tar.gz
+source: wget+http://pkgs.fedoraproject.org/repo/pkgs/PyQt4/PyQt-x11-gpl-4.7.2.tar.gz/e7782e9146ec8aa0e76bcdb0ca5b9491/PyQt-x11-gpl-4.7.2.tar.gz

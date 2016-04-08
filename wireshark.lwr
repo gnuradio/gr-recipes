@@ -28,4 +28,4 @@ inherit: autoconf
 satisfy:
   deb: wireshark
   cmd: wireshark --version >= 1.0
-source: http://wiresharkdownloads.riverbed.com/wireshark/src/all-versions/wireshark-1.10.2.tar.bz2
+source: wget+http://wiresharkdownloads.riverbed.com/wireshark/src/all-versions/wireshark-1.10.2.tar.bz2

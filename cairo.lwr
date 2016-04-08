@@ -27,4 +27,4 @@ inherit: autoconf
 satisfy:
   deb: libcairo2 >= 1.8.10
   rpm: cairo-devel >= 1.8.10
-source: http://cairographics.org/releases/cairo-1.8.10.tar.gz
+source: wget+http://cairographics.org/releases/cairo-1.8.10.tar.gz
