@@ -21,4 +21,4 @@ category: baseline
 inherit: autoconf
 satisfy:
   deb: libgflags-dev
-source: wget+https://gflags.googlecode.com/files/gflags-2.0.tar.gz
+source: https://gflags.googlecode.com/files/gflags-2.0.tar.gz

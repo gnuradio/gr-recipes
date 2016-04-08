@@ -26,4 +26,4 @@ inherit: distutils
 satisfy:
   deb: python-scipy >= 0.8
   rpm: scipy
-source: wget+http://downloads.sourceforge.net/project/scipy/scipy/0.8.0/scipy-0.8.0.tar.gz
+source: http://downloads.sourceforge.net/project/scipy/scipy/0.8.0/scipy-0.8.0.tar.gz
