@@ -27,6 +27,6 @@ inherit: cmake
 satisfy:
   deb: liblapack-dev >= 3.3.0
   rpm: lapack-devel >= 3.3.0 || lapack >= 3.3.0
-source: http://www.netlib.org/lapack/lapack-3.3.0.tgz
+source: wget+http://www.netlib.org/lapack/lapack-3.3.0.tgz
 vars:
   config_opt: ' -DCMAKE_Fortran_COMPILER=$prefix/bin/fortran-gfortran -DBUILD_SHARED_LIBS=ON '

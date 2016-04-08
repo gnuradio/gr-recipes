@@ -22,6 +22,6 @@ inherit: autoconf
 satisfy:
   deb: libqt4-dev >= 4.6.2
   rpm: qt-devel >= 4.6.2 || qt4-devel >= 4.6.2
-source: https://download.qt.io/archive/qt/4.6/qt-everywhere-opensource-src-4.6.2.tar.gz
+source: wget+https://download.qt.io/archive/qt/4.6/qt-everywhere-opensource-src-4.6.2.tar.gz
 vars:
   config_opt: -opensource --confirm-license -L$prefix/lib -L$prefix/lib64

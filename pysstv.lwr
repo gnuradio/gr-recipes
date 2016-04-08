@@ -24,4 +24,4 @@ depends:
 - libjpeg
 description: SSTV generator in pure Python
 inherit: distutils
-source: https://pypi.python.org/packages/source/P/PySSTV/PySSTV-0.1.9.tar.gz
+source: wget+https://pypi.python.org/packages/source/P/PySSTV/PySSTV-0.1.9.tar.gz

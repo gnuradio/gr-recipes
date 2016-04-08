@@ -21,4 +21,4 @@ category: baseline
 inherit: autoconf
 satisfy:
   deb: libgoogle-glog-dev
-source: http://google-glog.googlecode.com/files/glog-0.3.3.tar.gz
+source: wget+http://google-glog.googlecode.com/files/glog-0.3.3.tar.gz

@@ -23,4 +23,4 @@ satisfy:
   deb: libusb-1.0-0-dev >= 1.0.9
   rpm: (libusb-devel >= 1.0.9) || (libusbx-devel >= 1.0.9)
   pkgconfig: libusb-1.0
-source: http://sourceforge.net/projects/libusb/files/libusb-1.0/libusb-1.0.9/libusb-1.0.9.tar.bz2
+source: wget+http://sourceforge.net/projects/libusb/files/libusb-1.0/libusb-1.0.9/libusb-1.0.9.tar.bz2

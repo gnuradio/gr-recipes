@@ -23,4 +23,4 @@ depends:
 satisfy:
   deb: python-setuptools >= 0.6
   rpm: python-setuptools >= 0.6
-source: https://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz
+source: wget+https://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz

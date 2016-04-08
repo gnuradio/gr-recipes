@@ -22,4 +22,4 @@ inherit: autoconf
 satisfy:
   deb: libprotobuf-dev >= 2.6.1
   rpm: protobuf-devel >= 2.6.1
-source: https://github.com/google/protobuf/releases/download/v2.6.1/protobuf-2.6.1.tar.gz
+source: wget+https://github.com/google/protobuf/releases/download/v2.6.1/protobuf-2.6.1.tar.gz

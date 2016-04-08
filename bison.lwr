@@ -23,4 +23,4 @@ satisfy:
   deb: bison >= 2.3
   rpm: bison >= 2.3
   cmd: bison --version >= 2.3
-source: http://ftp.gnu.org/gnu/bison/bison-2.3.tar.gz
+source: wget+http://ftp.gnu.org/gnu/bison/bison-2.3.tar.gz

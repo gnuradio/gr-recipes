@@ -22,4 +22,4 @@ inherit: autoconf
 satisfy:
   deb: libasound2-dev
   rpm: alsa-lib-devel
-source: http://www.tux.org/pub/sites/ftp.alsa-project.org/lib/alsa-lib-1.0.27.2.tar.bz2
+source: wget+http://www.tux.org/pub/sites/ftp.alsa-project.org/lib/alsa-lib-1.0.27.2.tar.bz2
