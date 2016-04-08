@@ -19,7 +19,7 @@
 
 category: common
 depends: gnuradio
-source: git+git@github.com:manuts/gr-ldpc.git
+source: git+https://github.com/manuts/gr-ldpc.git
 gitbranch: master
 inherit: cmake
 description: encoder and decoder for LDPC codes
