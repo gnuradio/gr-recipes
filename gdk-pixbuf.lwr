@@ -28,4 +28,4 @@ inherit: autoconf
 satisfy:
   deb: libgdk-pixbuf2.0-dev >= 2.21.0
   rpm: (gdk-pixbuf-devel >= 2.21.0) || (gdk-pixbuf2-devel >= 2.21.0)
-source: wget+http://ftp.gnome.org/pub/gnome/sources/gdk-pixbuf/2.24/gdk-pixbuf-2.24.0.tar.bz2
+source: http://ftp.gnome.org/pub/gnome/sources/gdk-pixbuf/2.24/gdk-pixbuf-2.24.0.tar.bz2

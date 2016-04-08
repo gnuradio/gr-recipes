@@ -26,4 +26,4 @@ inherit: distutils
 satisfy:
   deb: python-numpy >= 1.5
   rpm: numpy >= 1.5
-source: wget+http://prdownloads.sourceforge.net/numpy/numpy-1.6.2.tar.gz
+source: http://prdownloads.sourceforge.net/numpy/numpy-1.6.2.tar.gz

@@ -42,6 +42,6 @@ make: 'make && \
 satisfy:
   deb: python-wxgtk2.8 || python-wxgtk3.0
   rpm: wxPython
-source: wget+http://prdownloads.sourceforge.net/wxpython/wxPython-src-2.8.11.0.tar.bz2
+source: http://prdownloads.sourceforge.net/wxpython/wxPython-src-2.8.11.0.tar.bz2
 vars:
   config_opt: ' --disable-unicode '

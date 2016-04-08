@@ -21,4 +21,4 @@ category: baseline
 inherit: cmake
 satisfy:
   deb: libpolarssl-dev
-source: wget+https://polarssl.org/download/polarssl-1.3.8-gpl.tgz
+source: https://polarssl.org/download/polarssl-1.3.8-gpl.tgz
