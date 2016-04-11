@@ -24,5 +24,5 @@ inherit: distutils
 satisfy:
   deb: python-mako >= 0.4.2
   rpm: python-mako >= 0.4.2
-  pip: Mako >= 0.4.2
+  pip: Mako
   pacman: python2-mako >= 0.4.2
