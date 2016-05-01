@@ -18,9 +18,11 @@
 #
 
 category: baseline
-configure: "cp qwtconfig.pri qwtconfig.pri.orig && \\\nsed 's/\\/usr\\/local\\/qwt-5.2.0/$reprefix/'\
-  \ qwtconfig.pri  > qwtconfig.pri.tmp && \\\ncp qwtconfig.pri.tmp qwtconfig.pri &&\
-  \ \\\nqmake \n"
+configure: "cp qwtconfig.pri qwtconfig.pri.orig &&  
+            reprefix=$(python -c 'import os; import re; print re.escape(os.environ[\"PYBOMBS_PREFIX\"])') &&
+            sed 's/\\/usr\\/local\\/qwt-5.2.0/'\"${reprefix}\"'/' qwtconfig.pri  > qwtconfig.pri.tmp && 
+            cp qwtconfig.pri.tmp qwtconfig.pri && 
+            qmake "
 depends:
 - qt4
 inherit: autoconf
