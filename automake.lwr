@@ -17,6 +17,8 @@
 # Boston, MA 02110-1301, USA.
 #
 
+depends:
+- autoconf
 category: baseline
 inherit: empty
 configure: ./configure --prefix=$prefix $config_opt CC=$cc CXX=$cxx
