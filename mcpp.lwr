@@ -31,6 +31,7 @@ install: 'make install
 satisfy:
   deb: (libmcpp-dev >= 2.7.2) && (mcpp >= 2.7.2)
   rpm: mcpp-devel >= 2.7.2
+  port: mcpp >= 2.7.2
 source:
 - file+dist/mcpp_2.7.2.orig.tar.gz
 - wget+http://aptproxy.willowgarage.com/archive.ubuntu.com/ubuntu/pool/universe/m/mcpp/mcpp_2.7.2.orig.tar.gz

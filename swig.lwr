@@ -26,6 +26,7 @@ satisfy:
   deb: swig2.0
   rpm: swig >= 2.0
   pacman: swig >= 2.0
+  port: swig-python >= 2.0
 source: wget+http://prdownloads.sourceforge.net/swig/swig-2.0.4.tar.gz
 vars:
   config_opt: --without-pcre

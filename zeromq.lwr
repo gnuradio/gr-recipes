@@ -25,4 +25,5 @@ satisfy:
   deb: libzmq3-dev
   rpm: cppzmq-devel
   pacman: zeromq
+  port: cppzmq
 source: wget+http://download.zeromq.org/zeromq-3.2.4.tar.gz

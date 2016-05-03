@@ -22,3 +22,4 @@ satisfy:
   deb: libtool
   rpm: libtool
   pacman: libtool
+  port: libtool

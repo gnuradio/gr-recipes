@@ -22,3 +22,4 @@ satisfy:
   deb: libgnutls28-dev
   rpm: gnutls-devel
   pacman: gnutls
+  port: gnutls

@@ -23,4 +23,6 @@ depends:
 description: FM RDS/TMC Transceiver
 gitbranch: master
 inherit: cmake
+satisfy:
+  port: gr-rds
 source: git+https://github.com/bastibl/gr-rds.git

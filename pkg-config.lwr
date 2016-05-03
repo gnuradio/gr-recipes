@@ -22,3 +22,4 @@ satisfy:
   deb: pkg-config
   rpm: pkgconfig
   pacman: pkg-config
+  port: pkgconfig

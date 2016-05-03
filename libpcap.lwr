@@ -22,4 +22,5 @@ inherit: autoconf
 satisfy:
   deb: libpcap-dev
   rpm: libpcap-devel
+  port: libpcap
 source: wget+http://www.tcpdump.org/release/libpcap-1.3.0.tar.gz

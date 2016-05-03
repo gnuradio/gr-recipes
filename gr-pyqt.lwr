@@ -25,4 +25,6 @@ depends:
 description: pyqt based plotters intended for plotting bursted events in gnu radio
 gitbranch: master
 inherit: cmake
+satisfy:
+  port: gr-pyqt
 source: git+https://github.com/osh/gr-pyqt.git
