@@ -34,6 +34,7 @@ satisfy:
   deb: uhd-host && libuhd-dev
   pkgconfig: uhd
   pacman: libuhd
+  port: uhd
 source: git+https://github.com/EttusResearch/uhd.git
 gitbranch: master
 gitargs: --depth=1

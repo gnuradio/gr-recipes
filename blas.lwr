@@ -22,3 +22,4 @@ satisfy:
   deb: libopenblas-dev
   rpm: blas-devel
   pacman: blas
+  port: OpenBLAS

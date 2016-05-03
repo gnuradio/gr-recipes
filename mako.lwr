@@ -26,3 +26,4 @@ satisfy:
   rpm: python-mako >= 0.4.2
   pip: Mako
   pacman: python2-mako >= 0.4.2
+  port: py27-mako >= 0.4.2

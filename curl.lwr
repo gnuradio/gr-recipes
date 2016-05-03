@@ -24,3 +24,4 @@ satisfy:
   rpm: curl
   cmd: curl --version
   pacman: curl
+  port: curl

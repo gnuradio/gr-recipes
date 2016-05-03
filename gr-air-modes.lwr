@@ -30,4 +30,5 @@ make: 'make -j1
   '
 satisfy:
   deb: gr-air-modes
+  port: gr-air-modes
 source: git+https://github.com/bistromath/gr-air-modes.git

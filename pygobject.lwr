@@ -29,6 +29,7 @@ satisfy:
   deb: python-gobject-dev >= 2.27
   rpm: pygobject2-devel >= 2.27
   pacman: python2-gobject2 >= 2.27
+  port: py27-gobject >= 2.27
 source: wget+http://ftp.gnome.org/pub/GNOME/sources/pygobject/2.27/pygobject-2.27.91.tar.gz
 vars:
   config_opt: ' --enable-introspection '

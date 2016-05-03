@@ -29,6 +29,7 @@ installdir: host/build
 makedir: host/build
 satisfy:
   deb: hackrf
+  port: hackrf
 source: git+https://github.com/mossmann/hackrf.git
 vars:
   config_opt: ' -DINSTALL_UDEV_RULES=OFF'

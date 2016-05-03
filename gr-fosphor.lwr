@@ -24,4 +24,6 @@ depends:
 description: RTSA-like spectrum visualization using OpenCL and OpenGL
 gitbranch: master
 inherit: cmake
+satisfy:
+  port: gr-fosphor
 source: git+git://git.osmocom.org/gr-fosphor

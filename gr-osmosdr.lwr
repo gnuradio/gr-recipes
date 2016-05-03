@@ -32,4 +32,5 @@ gitbranch: master
 inherit: cmake
 satisfy:
   deb: gr-osmosdr
+  port: gr-osmosdr
 source: git+git://git.osmocom.org/gr-osmosdr

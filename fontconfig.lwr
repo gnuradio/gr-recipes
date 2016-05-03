@@ -25,4 +25,5 @@ satisfy:
   deb: libfontconfig1-dev >= 2.4.2
   rpm: fontconfig-devel >= 2.4.2
   pacman: fontconfig
+  port: fontconfig >= 2.4.2
 source: wget+http://fontconfig.org/release/fontconfig-2.9.0.tar.gz

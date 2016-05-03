@@ -23,4 +23,6 @@ depends:
 description: Easy-to-use MAC-layer implementations for GNU Radio
 gitbranch: master
 inherit: cmake
+satisfy:
+  port: gr-mac
 source: git+https://github.com/jmalsbury/gr-mac.git

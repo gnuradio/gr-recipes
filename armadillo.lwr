@@ -26,6 +26,7 @@ inherit: cmake
 satisfy:
   deb: libarmadillo-dev
   rpm: armadillo-devel
+  port: armadillo
 source: wget+http://sourceforge.net/projects/arma/files/armadillo-4.400.1.tar.gz
 vars:
   config_opt: ' -DINSTALL_LIB_DIR=$prefix/lib '

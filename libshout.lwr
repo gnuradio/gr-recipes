@@ -21,3 +21,4 @@ category: baseline
 satisfy:
   deb: libshout3-dev
   rpm: libshout-devel
+  port: libshout2

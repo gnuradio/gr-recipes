@@ -24,3 +24,4 @@ satisfy:
   rpm: gcc-c++
   cmd: gcc --version
   pacman: gcc
+  port: gcc5

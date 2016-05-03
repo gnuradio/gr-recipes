@@ -23,4 +23,5 @@ satisfy:
   deb: libfreetype6-dev
   rpm: freetype-devel
   pacman: freetype2
+  port: freetype
 source: wget+download.savannah.gnu.org/releases/freetype/freetype-2.4.0.tar.bz2

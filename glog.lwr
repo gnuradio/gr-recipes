@@ -22,4 +22,5 @@ inherit: autoconf
 satisfy:
   deb: libgoogle-glog-dev
   pacman: google-glog
+  port: google-glog
 source: wget+http://google-glog.googlecode.com/files/glog-0.3.3.tar.gz

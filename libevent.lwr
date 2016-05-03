@@ -24,3 +24,4 @@ satisfy:
   deb: libevent-dev
   rpm: libevent-devel
   pacman: libevent
+  port: libevent

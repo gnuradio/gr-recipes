@@ -28,4 +28,6 @@ depends:
 description: Collection of new blocks for GNU Radio http://wiki.spench.net/wiki/gr-baz
 gitbranch: master
 inherit: cmake
+satisfy:
+  port: gr-baz
 source: git+https://github.com/balint256/gr-baz.git

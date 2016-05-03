@@ -22,4 +22,5 @@ inherit: autoconf
 satisfy:
   deb: libgflags-dev
   pacman: gflags
+  port: gflags
 source: wget+https://gflags.googlecode.com/files/gflags-2.0.tar.gz
