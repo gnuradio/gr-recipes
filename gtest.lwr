@@ -29,4 +29,5 @@ make: 'cmake .
   '
 satisfy:
   deb: libgtest-dev
+  port: gtest
 source: svn+http://googletest.googlecode.com/svn/trunk/

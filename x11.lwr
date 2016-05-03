@@ -23,3 +23,4 @@ satisfy:
   deb: libX11-dev && libXrender-dev
   rpm: libX11-devel && libXrender-devel && libXext-devel
   pacman: libx11 && libxrender
+  port: xorg-libX11

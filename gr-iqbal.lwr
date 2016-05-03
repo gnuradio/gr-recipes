@@ -26,4 +26,5 @@ gitbranch: master
 inherit: cmake
 satisfy:
   deb: gr-iqbal
+  port: gr-iqbalance
 source: git+git://git.osmocom.org/gr-iqbal

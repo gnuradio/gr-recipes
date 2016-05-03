@@ -28,4 +28,5 @@ make: "make    \n"
 satisfy:
   deb: libqwt5-qt4 && libqwt-dev
   rpm: qwt-devel >= 5.2
+  port: qwt52 >= 5.2
 source: wget+http://prdownloads.sourceforge.net/qwt/qwt-5.2.0.tar.bz2

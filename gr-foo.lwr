@@ -23,4 +23,6 @@ depends:
 description: Some additional blocks like packetpad that are required by, e.g., gr-ieee80211
 gitbranch: master
 inherit: cmake
+satisfy:
+  port: gr-foo
 source: git+https://github.com/bastibl/gr-foo

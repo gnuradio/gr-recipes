@@ -23,4 +23,5 @@ satisfy:
   deb: libatk1.0-0 >= 1.29.2
   rpm: atk-devel >= 1.29.2
   pacman: atk >= 1.29.2
+  port: atk >= 1.29.2
 source: wget+http://ftp.gnome.org/pub/gnome/sources/atk/1.30/atk-1.30.0.tar.bz2

@@ -22,6 +22,7 @@ source: wget+https://launchpad.net/ubuntu/+archive/primary/+files/bzip2_1.0.6.or
 satisfy:
   deb: libbz2-dev
   rpm: bzip2-devel
+  port: libzip
 inherit: autoconf
 configure: ''
 install: make install PREFIX=$prefix

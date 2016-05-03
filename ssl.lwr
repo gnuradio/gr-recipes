@@ -22,3 +22,4 @@ satisfy:
   deb: libssl-dev
   rpm: openssl-devel
   pacman: openssl
+  port: openssl

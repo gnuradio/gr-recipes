@@ -23,4 +23,5 @@ satisfy:
   deb: libasound2-dev
   rpm: alsa-lib-devel
   pacman: alsa-lib
+  port: portaudio
 source: wget+http://www.tux.org/pub/sites/ftp.alsa-project.org/lib/alsa-lib-1.0.27.2.tar.bz2
