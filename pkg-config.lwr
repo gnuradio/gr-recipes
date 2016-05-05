@@ -17,8 +17,13 @@
 # Boston, MA 02110-1301, USA.
 #
 
+depends:
+- wget
+- libtool
 category: baseline
+inherit: autoconf
 satisfy:
-  deb: pkg-config
-  rpm: pkgconfig
-  pacman: pkg-config
+  deb: (pkg-config >= 0.28)
+  rpm: (pkg-config >= 0.28)
+  pacman: (pkg-config >= 0.28)
+source: wget+https://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz

@@ -18,7 +18,13 @@
 #
 
 category: baseline
+depends:
+- wget
+- autoconf
+- automake
+inherit: autoconf
 satisfy:
-  deb: libtool
-  rpm: libtool
-  pacman: libtool
+  deb: libtool >= 2.4.6
+  rpm: libtool >= 2.4.6
+  pacman: libtool >= 2.4.6
+source: wget+http://ftpmirror.gnu.org/libtool/libtool-2.4.6.tar.gz

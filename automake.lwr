@@ -17,6 +17,8 @@
 # Boston, MA 02110-1301, USA.
 #
 
+depends:
+- autoconf
 category: baseline
 # We're not inheriting from autoconf here, or we'd have a circular dependency
 inherit: empty
