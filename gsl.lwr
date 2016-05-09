@@ -20,7 +20,8 @@
 category: baseline
 inherit: autoconf
 satisfy:
-  deb: (libgsl0-dev >= 1.13) && (libgsl0ldbl >= 1.13)
+  # Ubuntu's libgsl-dev replaces libgsl0-dev > 1.16
+  deb: ( (libgsl0-dev >= 1.13) && (libgsl0ldbl >= 1.13) ) || ligsl-dev >= 1.16
   rpm: gsl-devel >= 1.13
   pacman: gsl
   port: gsl >= 1.13
