@@ -27,12 +27,7 @@ install_static: 'cd .. && ./bjam cxxflags=''-fPIC'' --threading=multi --layout=t
   -j$makewidth install --build-dir=build
   '
 satisfy:
-  deb: (libboost1.53-dev && libboost-date-time1.53-dev && libboost-filesystem1.53-dev
-    && libboost-program-options1.53-dev && libboost-regex1.53-dev && libboost-thread1.53-dev
-    && libboost-test1.53-dev) || ((libboost-dev >= 1.53) && (libboost-date-time-dev
-    >= 1.53) && (libboost-filesystem-dev >= 1.53) && (libboost-program-options-dev
-    >= 1.53) && (libboost-regex-dev >= 1.53) && (libboost-thread-dev >= 1.53) && (libboost-test-dev
-    >=1.53))
+  deb: libboost-all-dev >= 1.53 || libboost-dev >= 1.53
   rpm: boost-devel >= 1.53
   pacman: boost >= 1.53
   port: boost >= 1.53
