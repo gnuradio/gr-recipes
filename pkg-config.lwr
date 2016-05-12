@@ -27,4 +27,6 @@ satisfy:
   rpm: (pkg-config >= 0.28)
   pacman: (pkg-config >= 0.28)
   port: pkgconfig >= 0.28
-source: wget+https://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz
+source: git+https://anongit.freedesktop.org/git/pkg-config.git
+gitrev: pkg-config-0.28
+configure: './autogen.sh ; ./configure --with-internal-glib --prefix=$prefix CC=$cc CXX=$cxx CXXFLAGS="-DNDEBUG"'
