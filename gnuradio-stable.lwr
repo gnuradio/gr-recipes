@@ -27,4 +27,8 @@ config:
       optional: True
     doxygen:
       optional: True
+    gnuradio:
+      gitbranch: maint
+    uhd:
+      gitbranch: maint
 
