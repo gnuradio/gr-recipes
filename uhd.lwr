@@ -19,17 +19,10 @@
 
 category: hardware
 depends:
-  - swig
   - python-requests
   - libusb
-  - git
-  - cmake
-  - mako
   - boost
-  - gsl
-  - numpy
-  - cppunit
-  - fftw
+  - doxygen
 satisfy:
   deb: uhd-host && libuhd-dev
   pkgconfig: uhd
