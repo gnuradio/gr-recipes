@@ -21,4 +21,8 @@ inherit: prefix
 depends:
         - gnuradio
         - gr-osmosdr
+config:
+  packages:
+    apache-thrift:
+     optional: True
 
