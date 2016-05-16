@@ -21,6 +21,7 @@ category: baseline
 inherit: cmake
 satisfy:
   deb: doxygen
+  rpm: doxygen
   cmd: doxygen --version
 source: git+https://github.com/doxygen/doxygen.git
 
