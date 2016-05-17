@@ -43,6 +43,7 @@ satisfy:
   deb: python-wxgtk2.8 || python-wxgtk3.0
   rpm: wxPython
   port: wxPython-3.0 && py27-wxpython-3.0
+  pacman: wxpython
 source: wget+http://prdownloads.sourceforge.net/wxpython/wxPython-src-2.8.11.0.tar.bz2
 vars:
   config_opt: ' --disable-unicode '
