@@ -23,5 +23,6 @@ satisfy:
   deb: doxygen
   rpm: doxygen
   cmd: doxygen --version
+  pacman: doxygen
 source: git+https://github.com/doxygen/doxygen.git
 
