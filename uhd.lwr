@@ -23,6 +23,7 @@ depends:
   - libusb
   - boost
   - doxygen
+  - mako
 satisfy:
   deb: uhd-host && libuhd-dev
   pkgconfig: uhd
