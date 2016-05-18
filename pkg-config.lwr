@@ -23,4 +23,4 @@ satisfy:
   rpm: pkgconfig
   pacman: pkg-config
   port: pkgconfig
-source: wget+https://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz
+source: wget+http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz
