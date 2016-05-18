@@ -27,4 +27,7 @@ config:
       optional: True
     doxygen:
       optional: True
+    gqrx:
+      forcebuild: True
+
 

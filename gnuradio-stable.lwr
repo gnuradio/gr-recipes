@@ -31,4 +31,6 @@ config:
       gitbranch: maint
     uhd:
       gitbranch: maint
+    gqrx:
+      forcebuild: True
 
