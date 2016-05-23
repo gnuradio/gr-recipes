@@ -44,3 +44,4 @@ inherit: bootstrapautoconf
 source: git+https://github.com/apache/thrift.git
 satisfy:
     pacman: thrift
+    pkgconfig: thrift

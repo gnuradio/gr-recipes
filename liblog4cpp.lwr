@@ -29,6 +29,7 @@ satisfy:
   rpm: log4cpp-devel && log4cpp
   port: log4cpp
   pacman: log4cpp
+  pkgconfig: log4cpp
 source: wget+http://prdownloads.sourceforge.net/log4cpp/log4cpp-1.1.1.tar.gz
 vars:
   config_opt: --with-pthreads

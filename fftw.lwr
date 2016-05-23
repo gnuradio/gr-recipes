@@ -24,6 +24,7 @@ satisfy:
   rpm: fftw-devel
   pacman: fftw
   port: fftw-3-single
+  pkgconfig: fftw3
 source: wget+http://www.fftw.org/fftw-3.3.2.tar.gz
 vars:
   config_opt: --enable-single --enable-shared
