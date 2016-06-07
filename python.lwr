@@ -25,5 +25,6 @@ satisfy:
   cmd: python --version >= 2.7
   pacman: python2 >= 2.7
   port: python27 >= 2.7
+  portage: dev-lang/python >= 2.7
 vars:
   config_opt: --enable-shared

@@ -29,4 +29,5 @@ satisfy:
   rpm: python-lxml >= 2.3.2
   pacman: python2-lxml >= 2.3.2
   port: py27-lxml >= 2.3.2
+  portage: dev-python/lxml >= 2.3.2
 source: wget+http://lxml.de/files/lxml-2.3.3.tgz

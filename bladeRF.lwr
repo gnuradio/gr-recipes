@@ -30,6 +30,7 @@ makedir: host/build
 satisfy:
   deb: bladerf
   port: bladeRF
+  portage: net-wireless/bladerf
 source: git+https://github.com/Nuand/bladeRF.git
 vars:
   config_opt: ' -DINSTALL_UDEV_RULES=OFF'

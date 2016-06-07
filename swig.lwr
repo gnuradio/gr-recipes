@@ -28,6 +28,7 @@ satisfy:
   pacman: swig >= 2.0
   port: swig-python >= 2.0
   cmd: swig -version >= 2.0
+  portage: dev-lang/swig >= 2.0
 source: wget+http://prdownloads.sourceforge.net/swig/swig-2.0.4.tar.gz
 vars:
   config_opt: --without-pcre

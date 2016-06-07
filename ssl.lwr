@@ -23,3 +23,4 @@ satisfy:
   rpm: openssl-devel
   pacman: openssl
   port: openssl
+  portage: dev-libs/openssl

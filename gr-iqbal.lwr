@@ -27,4 +27,5 @@ inherit: cmake
 satisfy:
   deb: gr-iqbal
   port: gr-iqbalance
+  portage: net-wireless/gr-iqbal
 source: git+git://git.osmocom.org/gr-iqbal
