@@ -26,4 +26,5 @@ satisfy:
   pacman: gsl
   port: gsl >= 1.13
   pkgconfig: gsl >= 1.13
+  portage: sci-libs/gsl >= 1.13
 source: wget+http://mirror.nexcess.net/gnu/gsl/gsl-1.13.tar.gz

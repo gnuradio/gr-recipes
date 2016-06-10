@@ -30,6 +30,7 @@ makedir: host/build
 satisfy:
   deb: hackrf
   port: hackrf
+  portage: net-wireless/hackrf-tools
 source: git+https://github.com/mossmann/hackrf.git
 vars:
   config_opt: ' -DINSTALL_UDEV_RULES=OFF'

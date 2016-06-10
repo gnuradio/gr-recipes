@@ -31,4 +31,5 @@ satisfy:
   rpm: boost-devel >= 1.53
   pacman: boost >= 1.53
   port: boost >= 1.53
+  portage: dev-libs/boost >= 1.53
 source: wget+http://downloads.sourceforge.net/project/boost/boost/1.53.0/boost_1_53_0.tar.bz2

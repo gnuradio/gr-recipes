@@ -25,4 +25,5 @@ satisfy:
   cmd: bison --version >= 2.5
   pacman: bison >= 2.5
   port: bison >= 2.5
+  portage: sys-devel/bison >= 2.5
 source: wget+http://ftp.gnu.org/gnu/bison/bison-2.5.tar.gz

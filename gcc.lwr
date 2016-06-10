@@ -25,3 +25,4 @@ satisfy:
   cmd: gcc --version
   pacman: gcc
   port: gcc5
+  portage: sys-devel/gcc

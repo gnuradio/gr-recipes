@@ -25,3 +25,4 @@ satisfy:
   pacman: python2-twisted
   cmd: trial
   port: py27-twisted
+  portage: dev-python/twisted-core

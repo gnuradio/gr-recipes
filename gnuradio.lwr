@@ -42,6 +42,7 @@ satisfy:
   deb: gnuradio-dev
   pacman: gnuradio
   port: gnuradio
+  portage: net-wireless/gnuradio
 source: git+https://github.com/gnuradio/gnuradio.git
 gitbranch: master
 gitargs: --recursive

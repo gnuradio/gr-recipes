@@ -24,6 +24,7 @@ satisfy:
   rpm: cppunit-devel
   pacman: cppunit
   port: cppunit
+  portage: dev-util/cppunit
 source: wget+http://prdownloads.sourceforge.net/cppunit/cppunit-1.12.1.tar.gz
 vars:
   config_opt: LIBS=-ldl

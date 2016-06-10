@@ -25,4 +25,5 @@ satisfy:
   pacman: libusb >= 1.0.9
   pkgconfig: libusb-1.0
   port: libusb >= 1.0.9
+  portage: dev-libs/libusb >= 1.0.9
 source: wget+http://sourceforge.net/projects/libusb/files/libusb-1.0/libusb-1.0.9/libusb-1.0.9.tar.bz2
