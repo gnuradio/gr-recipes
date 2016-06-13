@@ -27,6 +27,6 @@ satisfy:
   deb: libarmadillo-dev
   rpm: armadillo-devel
   port: armadillo
-source: wget+http://sourceforge.net/projects/arma/files/armadillo-4.400.1.tar.gz
+source: wget+http://sourceforge.net/projects/arma/files/armadillo-7.200.1.tar.xz
 vars:
   config_opt: ' -DINSTALL_LIB_DIR=$prefix/lib '
