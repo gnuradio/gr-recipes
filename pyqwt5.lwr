@@ -45,4 +45,4 @@ satisfy:
   pacman: qwt5 >= 5.2
   port: py27-pyqwt >= 5.2
   portage: dev-python/pyqwt >= 5.2
-source: wget+http://prdownloads.sourceforge.net/pyqwt/PyQwt-5.2.0.tar.gz
+source: wget+http://sourceforge.net/projects/pyqwt/files/pyqwt5/PyQwt-5.2.0/PyQwt-5.2.0.tar.gz
