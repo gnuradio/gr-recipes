@@ -37,6 +37,7 @@ depends:
 - apache-thrift
 - liblog4cpp
 - zeromq
+- python-zmq
 category: common
 satisfy:
   deb: gnuradio-dev
