@@ -27,6 +27,7 @@ inherit: autoconf
 install_like: qt4
 satisfy:
   deb: ( python-qt4 >= 4.6.2 ) && ( pyqt4-dev-tools >= 4.6.2 )
+  brew: pyqt >= 4.6.2
   rpm: PyQt4-devel >= 4.6.2
   pacman: python2-pyqt4
   port: py27-pyqt4 >= 4.6.2

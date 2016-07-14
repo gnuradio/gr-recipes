@@ -21,6 +21,7 @@ category: baseline
 inherit: autoconf
 satisfy:
   deb: libpng12-dev >= 1.2.41
+  brew: libpng >= 1.2.41
   rpm: libpng-devel >= 1.2.41
   pacman: libpng
   port: libpng >= 1.2.41

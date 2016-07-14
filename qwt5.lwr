@@ -18,10 +18,10 @@
 #
 
 category: baseline
-configure: "cp qwtconfig.pri qwtconfig.pri.orig &&  
+configure: "cp qwtconfig.pri qwtconfig.pri.orig &&
             reprefix=$(python -c 'import os; import re; print re.escape(os.environ[\"PYBOMBS_PREFIX\"])') &&
-            sed 's/\\/usr\\/local\\/qwt-5.2.0/'\"${reprefix}\"'/' qwtconfig.pri  > qwtconfig.pri.tmp && 
-            cp qwtconfig.pri.tmp qwtconfig.pri && 
+            sed 's/\\/usr\\/local\\/qwt-5.2.0/'\"${reprefix}\"'/' qwtconfig.pri  > qwtconfig.pri.tmp &&
+            cp qwtconfig.pri.tmp qwtconfig.pri &&
             qmake "
 depends:
 - qt4
@@ -29,6 +29,7 @@ inherit: autoconf
 make: "make    \n"
 satisfy:
   deb: libqwt5-qt4 && libqwt-dev
+  brew: qwt >= 5.2
   rpm: qwt-devel >= 5.2
   port: qwt52 >= 5.2
   pacman: qwt5 >= 5.2

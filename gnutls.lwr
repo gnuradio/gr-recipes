@@ -20,6 +20,7 @@
 category: baseline
 satisfy:
   deb: libgnutls28-dev
+  brew: gnutls
   rpm: gnutls-devel
   pacman: gnutls
   port: gnutls

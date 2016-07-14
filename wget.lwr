@@ -19,6 +19,7 @@
 
 category: baseline
 satisfy:
+  brew: wget
   deb: wget
   rpm: wget
   cmd: wget

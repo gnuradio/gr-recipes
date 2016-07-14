@@ -24,6 +24,7 @@ depends:
 inherit: autoconf
 satisfy:
   deb: swig2.0
+  brew: swig
   rpm: swig >= 2.0
   pacman: swig >= 2.0
   port: swig-python >= 2.0

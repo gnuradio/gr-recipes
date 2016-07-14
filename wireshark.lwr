@@ -27,6 +27,7 @@ depends:
 inherit: autoconf
 satisfy:
   deb: wireshark
+  brew: wireshark
   cmd: wireshark --version >= 1.0
   port: wireshark
 source: wget+http://wiresharkdownloads.riverbed.com/wireshark/src/all-versions/wireshark-1.10.2.tar.bz2

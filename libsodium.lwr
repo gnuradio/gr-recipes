@@ -32,6 +32,7 @@ gitbranch: master
 inherit: autoconf
 satisfy:
   deb: libsodium-dev
+  brew: libsodium
   rpm: libsodium-devel
   pacman: libsodium
   port: libsodium

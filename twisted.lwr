@@ -24,5 +24,6 @@ satisfy:
   rpm: python-twisted || python-twisted-core
   pacman: python2-twisted
   cmd: trial
+  pip: twisted
   port: py27-twisted
   portage: dev-python/twisted-core

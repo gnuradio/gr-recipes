@@ -21,6 +21,7 @@ category: baseline
 inherit: autoconf
 satisfy:
   deb: libexpat1-dev >= 2.0.1
+  brew: expat >= 2.0.1
   rpm: expat-devel >= 2.0.1
   pacman: expat >= 2.0.1
   port: expat >= 2.0.1

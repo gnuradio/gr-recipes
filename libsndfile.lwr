@@ -21,6 +21,7 @@ category: baseline
 inherit: autoconf
 satisfy:
   deb: libsndfile-dev || libsndfile1-dev
+  brew: libsndfile
   rpm: libsndfile-devel
   port: libsndfile
 source: wget+http://www.mega-nerd.com/libsndfile/files/libsndfile-1.0.25.tar.gz

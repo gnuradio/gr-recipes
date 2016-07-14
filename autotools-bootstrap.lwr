@@ -29,6 +29,7 @@ category: baseline
 inherit: empty
 satisfy:
   deb: autoconf && automake
+  brew: autoconf && automake
   rpm: autoconf && automake
   pacman: autoconf && automake
   port: autoconf && automake

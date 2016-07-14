@@ -23,6 +23,7 @@ depends:
 inherit: autoconf
 satisfy:
   deb: libfontconfig1-dev >= 2.4.2
+  brew: fontconfig >= 2.4.2
   rpm: fontconfig-devel >= 2.4.2
   pacman: fontconfig
   port: fontconfig >= 2.4.2

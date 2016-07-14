@@ -21,6 +21,7 @@ category: baseline
 depends: null
 satisfy:
   deb: libtiff5-dev || libtiff4-dev
+  brew: libtiff
   rpm: libtiff-devel
   pacman: libtiff
   port: tiff

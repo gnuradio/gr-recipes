@@ -28,6 +28,7 @@ inherit: autoconf
 install_like: python
 satisfy:
   deb: python-sip-dev >= 4.10.1
+  brew: sip >= 4.10.1
   rpm: sip-devel >= 4.10.1
   pacman: python2-sip >= 4.10.1
   port: py27-sip >= 4.10.1

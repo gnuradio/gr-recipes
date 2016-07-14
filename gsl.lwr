@@ -22,6 +22,7 @@ inherit: autoconf
 satisfy:
   # Ubuntu's libgsl-dev replaces libgsl0-dev > 1.16
   deb: ( (libgsl0-dev >= 1.13) && (libgsl0ldbl >= 1.13) ) || libgsl-dev >= 1.16
+  brew: gsl >= 1.13
   rpm: gsl-devel >= 1.13
   pacman: gsl
   port: gsl >= 1.13

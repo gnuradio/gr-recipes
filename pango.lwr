@@ -23,6 +23,7 @@ depends:
 inherit: autoconf
 satisfy:
   deb: libpango1.0-0 >= 1.28
+  brew: pango >= 1.28
   rpm: pango-devel >= 1.28
   pacman: pango >= 1.28
   port: pango >= 1.28

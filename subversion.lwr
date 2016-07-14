@@ -21,6 +21,7 @@ category: baseline
 depends: null
 satisfy:
   deb: subversion
+  brew: subversion
   rpm: subversion
   pacman: subversion
   cmd: subversion --version

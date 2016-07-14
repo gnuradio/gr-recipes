@@ -27,6 +27,7 @@ depends:
 inherit: autoconf
 satisfy:
   deb: libgdk-pixbuf2.0-dev >= 2.21.0
+  brew: gdk-pixbuf >= 2.21.0
   rpm: (gdk-pixbuf-devel >= 2.21.0) || (gdk-pixbuf2-devel >= 2.21.0)
   pacman: gdk-pixbuf2
   port: gdk-pixbuf2 >= 2.21.0

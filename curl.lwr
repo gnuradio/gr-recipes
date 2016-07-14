@@ -21,6 +21,7 @@ category: baseline
 depends: null
 satisfy:
   deb: curl || libcurl3
+  brew: curl
   rpm: curl
   cmd: curl --version
   pacman: curl

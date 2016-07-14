@@ -20,6 +20,7 @@
 category: baseline
 inherit: autoconf
 satisfy:
+  brew: atk >= 1.29.2
   deb: libatk1.0-0 >= 1.29.2
   rpm: atk-devel >= 1.29.2
   pacman: atk >= 1.29.2

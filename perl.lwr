@@ -20,6 +20,7 @@
 category: baseline
 satisfy:
   deb: perl
+  brew: perl
   rpm: perl
   cmd: perl --version >= 5.0.0
   pacman: perl

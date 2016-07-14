@@ -23,6 +23,7 @@ depends:
 inherit: autoconf
 satisfy:
   deb: libzmq3-dev
+  brew: zeromq
   rpm: cppzmq-devel
   pacman: zeromq
   port: cppzmq

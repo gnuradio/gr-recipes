@@ -24,6 +24,7 @@ depends:
 inherit: autoconf
 satisfy:
   deb: (cmake >= 2.8.3) && (cmake-data >= 2.8.3)
+  brew: cmake >= 2.8.3
   rpm: (cmake >= 2.8.3)
   pacman: cmake >= 2.8.3
   port: cmake >= 2.8.3

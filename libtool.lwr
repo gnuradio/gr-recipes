@@ -20,6 +20,7 @@
 category: baseline
 satisfy:
   deb: libtool >= 2.4.2
+  brew: libtool >= 2.4.2
   rpm: libtool >= 2.4.2
   pacman: libtool >= 2.4.2
   port: libtool >= 2.4.2

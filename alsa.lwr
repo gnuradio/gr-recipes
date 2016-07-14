@@ -21,6 +21,7 @@ category: baseline
 inherit: autoconf
 satisfy:
   deb: libasound2-dev
+  brew: True
   rpm: alsa-lib-devel
   pacman: alsa-lib
   port: portaudio

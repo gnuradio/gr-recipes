@@ -21,6 +21,7 @@ category: baseline
 inherit: autoconf
 satisfy:
   deb: (libpixman-1-0 >= 0.18.4) || (libpixman-1-dev >= 0.18.4)
+  brew: pixman >= 0.18.4
   rpm: pixman-devel >= 0.18.4
   pacman: pixman
   port: libpixman >= 0.18.4

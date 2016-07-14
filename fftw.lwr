@@ -21,6 +21,7 @@ category: baseline
 inherit: autoconf
 satisfy:
   deb: libfftw3-3 && libfftw3-dev
+  brew: fftw
   rpm: fftw-devel
   pacman: fftw
   port: fftw-3-single

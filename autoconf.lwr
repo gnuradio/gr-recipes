@@ -29,6 +29,7 @@ depends:
   - autotools-bootstrap
 satisfy:
   deb: autoconf >= 2.69
+  brew: autoconf >= 2.69
   rpm: autoconf >= 2.69
   pacman: autoconf >= 2.69
   port: autoconf >= 2.69

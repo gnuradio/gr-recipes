@@ -26,6 +26,7 @@ depends:
 inherit: autoconf
 satisfy:
   deb: libcairo2 >= 1.8.10
+  brew: cairo >= 1.8.10
   rpm: cairo-devel >= 1.8.10
   pacman: cairo >= 1.8.10
   port: cairo >= 1.8.10

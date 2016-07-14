@@ -29,6 +29,7 @@ depends:
   - autotools-bootstrap
 satisfy:
   deb: automake >= 1.14
+  brew: automake >= 1.14
   rpm: automake >= 1.14
   pacman: automake >= 1.14
   port: automake >= 1.14

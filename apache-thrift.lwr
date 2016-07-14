@@ -43,5 +43,6 @@ gitrev: 0.9.3
 inherit: bootstrapautoconf
 source: git+https://github.com/apache/thrift.git
 satisfy:
+    brew: thrift
     pacman: thrift
     pkgconfig: thrift

@@ -21,6 +21,7 @@ category: baseline
 inherit: autoconf
 satisfy:
   deb: libusb-1.0-0-dev >= 1.0.9
+  brew: libusb >= 1.0.9
   rpm: (libusb-devel >= 1.0.9) || (libusbx-devel >= 1.0.9)
   pacman: libusb >= 1.0.9
   pkgconfig: libusb-1.0

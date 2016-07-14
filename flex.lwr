@@ -21,6 +21,7 @@ category: baseline
 inherit: autoconf
 satisfy:
   deb: flex >= 2.5.35
+  brew: flex >= 2.5.35
   rpm: flex >= 2.5.35
   cmd: flex --version >= 2.5.35
   port: flex >= 2.5.35

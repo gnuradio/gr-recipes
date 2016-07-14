@@ -21,6 +21,7 @@ category: baseline
 inherit: autoconf
 satisfy:
   deb: libglib2.0-dev >= 2.27.2
+  brew: glib >= 2.27.2
   rpm: glib2-devel >= 2.27.2
   pacman: glib2 >= 2.27.2
   port: glib2 >= 2.27.2

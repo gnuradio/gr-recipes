@@ -21,6 +21,7 @@ category: baseline
 depends: null
 satisfy:
   deb: gcc && g++
+  brew: gcc
   rpm: gcc-c++
   cmd: gcc --version
   pacman: gcc

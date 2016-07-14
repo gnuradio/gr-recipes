@@ -21,6 +21,7 @@ category: baseline
 inherit: autoconf
 satisfy:
   deb: libitpp-dev
+  brew: itpp
   rpm: itpp-devel
   port: itpp
 source: wget+http://downloads.sourceforge.net/project/itpp/itpp/4.3.1/itpp-4.3.1.tar.bz2

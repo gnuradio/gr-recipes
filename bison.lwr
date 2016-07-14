@@ -21,6 +21,7 @@ category: baseline
 inherit: autoconf
 satisfy:
   deb: bison >= 2.5
+  brew: bison >= 2.5
   rpm: bison >= 2.5
   cmd: bison --version >= 2.5
   pacman: bison >= 2.5

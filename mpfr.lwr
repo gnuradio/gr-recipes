@@ -23,6 +23,7 @@ depends:
 inherit: autoconf
 satisfy:
   deb: libmpfr-dev >= 3.0.0
+  brew: mpfr >= 3.0.0
   rpm: mpfr-devel >= 3.0.0
   port: mpfr >= 3.0.0
 source: wget+http://www.mpfr.org/mpfr-3.0.0/mpfr-3.0.0.tar.gz

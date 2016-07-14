@@ -20,6 +20,7 @@
 category: baseline
 inherit: autoconf
 satisfy:
+  brew: freetype
   deb: libfreetype6-dev
   rpm: freetype-devel
   pacman: freetype2

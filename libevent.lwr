@@ -22,6 +22,7 @@ depends:
 - ssl
 satisfy:
   deb: libevent-dev
+  brew: libevent
   rpm: libevent-devel
   pacman: libevent
   port: libevent

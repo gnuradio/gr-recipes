@@ -24,6 +24,7 @@ depends:
 inherit: autoconf
 satisfy:
   deb: libffi6
+  brew: libffi
   rpm: libffi-devel
   pacman: libffi
   port: libffi

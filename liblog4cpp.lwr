@@ -26,6 +26,7 @@ depends:
 inherit: autoconf
 satisfy:
   deb: liblog4cpp5-dev
+  brew: log4cpp
   rpm: log4cpp-devel && log4cpp
   port: log4cpp
   portage: dev-libs/log4cpp

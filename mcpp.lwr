@@ -30,6 +30,7 @@ install: 'make install
   '
 satisfy:
   deb: (libmcpp-dev >= 2.7.2) && (mcpp >= 2.7.2)
+  brew: mcpp >= 2.7.2
   rpm: mcpp-devel >= 2.7.2
   port: mcpp >= 2.7.2
 source:

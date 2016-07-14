@@ -41,6 +41,7 @@ installdir: configure/
 makedir: configure/
 satisfy:
   deb: python-qwt5-qt4 >= 5.2
+  brew: pyqwt >= 5.2
   rpm: PyQwt-devel >= 5.2
   pacman: qwt5 >= 5.2
   port: py27-pyqwt >= 5.2

@@ -20,6 +20,7 @@
 category: baseline
 satisfy:
   deb: pkg-config
+  brew: pkg-config
   rpm: pkgconfig
   pacman: pkg-config
   port: pkgconfig

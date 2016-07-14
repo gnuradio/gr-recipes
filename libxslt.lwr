@@ -21,6 +21,7 @@ category: baseline
 inherit: autoconf
 satisfy:
   deb: libxslt1-dev >= 1.1
+  brew: libxslt >= 1.1
   rpm: libxslt-devel >= 1.1
   port: libxslt >= 1.1
 source: wget+http://xmlsoft.org/sources/libxslt-1.1.20.tar.gz
