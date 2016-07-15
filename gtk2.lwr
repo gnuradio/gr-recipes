@@ -29,6 +29,7 @@ depends:
 inherit: autoconf
 satisfy:
   deb: libgtk2.0-dev >= 2.21.8
+  brew: True
   rpm: gtk2-devel >= 2.21.8
   pacman: gtk2 >= 2.21.8
   port: gtk2 >= 2.21.8

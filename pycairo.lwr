@@ -33,6 +33,7 @@ make: './waf build
   '
 satisfy:
   deb: python-cairo-dev >= 1.8
+  brew: True
   rpm: pycairo-devel >= 1.8
   pacman: python2-cairo >= 1.8
   port: py27-cairo >= 1.8

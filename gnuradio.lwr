@@ -47,9 +47,9 @@ source: git+https://github.com/gnuradio/gnuradio.git
 gitbranch: master
 gitargs: --recursive
 vars:
-  config_opt: " -DENABLE_DOXYGEN=$builddocs "
+  config_opt: " -DENABLE_DOXYGEN=$builddocs -DPYTHON_EXECUTABLE='/usr/local/Cellar/python/2.7.12/Frameworks/Python.framework/Versions/2.7/bin/python' -DPYTHON_INCLUDE_DIR='/usr/local/Cellar/python/2.7.12/Frameworks/Python.framework/Versions/2.7/include/python2.7' -DPYTHON_LIBRARY='/usr/local/Cellar/python/2.7.12/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib' "
 inherit: cmake
-configure_static: cmake .. -DCMAKE_BUILD_TYPE=$cmakebuildtype -DCMAKE_INSTALL_PREFIX=$prefix -DENABLE_STATIC_LIBS=True $config_opt
+configure_static: cmake .. -DCMAKE_BUILD_TYPE=$cmakebuildtype -DCMAKE_INSTALL_PREFIX=$prefix -DENABLE_STATIC_LIBS=True $config_opt -DPYTHON_EXECUTABLE='/usr/local/Cellar/python/2.7.12/Frameworks/Python.framework/Versions/2.7/bin/python' -DPYTHON_INCLUDE_DIR='/usr/local/Cellar/python/2.7.12/Frameworks/Python.framework/Versions/2.7/include/python2.7' -DPYTHON_LIBRARY='/usr/local/Cellar/python/2.7.12/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib'
 install: |
     make install
     make install
