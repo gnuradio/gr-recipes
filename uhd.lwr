@@ -32,7 +32,6 @@ satisfy:
   portage: net-wireless/uhd
 source: git+https://github.com/EttusResearch/uhd.git
 gitbranch: master
-gitargs: --depth=1
 #gitbranch: rfnoc-devel
 inherit: cmake
 configuredir: host/build
