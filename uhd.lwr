@@ -24,6 +24,7 @@ depends:
   - boost
   - doxygen
   - mako
+description: USRP hardware driver
 satisfy:
   deb: uhd-host && libuhd-dev
   pkgconfig: uhd

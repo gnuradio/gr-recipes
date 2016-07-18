@@ -20,7 +20,7 @@
 category: common
 depends:
 - gnuradio
-description: QT based PNG and text display sink for gnuradio
+description: Qt based PNG and text display sink for gnuradio
 gitbranch: master
 inherit: cmake
 source: git+https://github.com/dl1ksv/gr-display.git

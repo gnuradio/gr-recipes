@@ -21,7 +21,7 @@ category: common
 depends:
 - gnuradio
 - liblog4cpp
-description: tutorial OOT module for GNU Radio
+description: Tutorial OOT module for GNU Radio
 gitbranch: master
 inherit: cmake
 source: git+https://github.com/gnuradio/gr-tutorial.git

@@ -20,7 +20,7 @@
 category: common
 depends:
 - gnuradio
-description: blocks useful for working with Stream Tags
+description: Blocks useful for working with Stream Tags
 gitbranch: master
 inherit: cmake
 source: git+https://github.com/adamgann/gr-tagutils.git

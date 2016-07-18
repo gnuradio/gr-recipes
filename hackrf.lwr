@@ -23,6 +23,7 @@ depends:
 - git
 - cmake
 - libusb
+description: Hardware designs and software for HackRF, a low cost, open source SDR platform
 gitbranch: master
 inherit: cmake
 installdir: host/build

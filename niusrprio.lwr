@@ -18,6 +18,7 @@
 #
 
 category: hardware
+description: Installer for NI's USRP IO
 make: 'sudo ./INSTALL'
 make_interactive: True
 installdir: ./

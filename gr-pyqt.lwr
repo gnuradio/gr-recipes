@@ -22,7 +22,7 @@ depends:
 - gnuradio
 - python-matplotlib
 - python-tk
-description: pyqt based plotters intended for plotting bursted events in gnu radio
+description: PyQt based plotters intended for plotting bursted events in gnuradio
 gitbranch: master
 inherit: cmake
 satisfy:

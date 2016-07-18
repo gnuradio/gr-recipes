@@ -22,4 +22,4 @@ depends: gnuradio
 source: git+https://github.com/manuts/gr-ldpc.git
 gitbranch: master
 inherit: cmake
-description: encoder and decoder for LDPC codes
+description: Encoder and decoder for LDPC codes

@@ -21,6 +21,7 @@ category: dsplib
 depends:
 - gnuradio
 - gr-osmosdr
+description: POCSAG Multichannel Realtime Decoder
 gitbranch: master
 inherit: empty
 source: git+https://github.com/iZsh/pocsag-mrt.git
