@@ -27,6 +27,7 @@ satisfy:
   pacman: python2-cheetah >= 2.0
   pip: cheetah >= 2.0
   cmd: cheetah --version >= 2.0
+  pip: Cheetah
   port: py27-cheetah >= 2.0
   portage: dev-python/cheetah >= 2.0
 source:
