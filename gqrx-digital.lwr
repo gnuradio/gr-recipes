@@ -32,6 +32,7 @@ depends:
 - osmo-tetra
 - libshout
 - gr-dsd
+description: GQRX as a frontend for digital receivers
 gitbranch: digital
 inherit: empty
 install: 'mv gqrx gqrx-digital

@@ -23,6 +23,7 @@ depends:
 - gnuradio
 - armadillo
 - gnutls
+description: An open source GNSS software defined receiver
 gitbranch: next
 inherit: cmake
 makedir: build

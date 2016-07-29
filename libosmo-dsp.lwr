@@ -24,6 +24,7 @@ depends:
 - autoconf
 - libtool
 - automake
+description: A library with SDR DSP primitives
 gitbranch: master
 inherit: autoconf
 satisfy:

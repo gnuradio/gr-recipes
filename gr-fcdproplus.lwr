@@ -22,7 +22,7 @@ depends:
 - gnuradio
 - libusb
 - libhidapi
-description: gnuradio funcube dongle pro+ source
+description: GNURadio funcube dongle pro+ source
 gitbranch: master
 inherit: cmake
 satisfy:

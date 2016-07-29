@@ -21,7 +21,7 @@ category: common
 depends:
 - gnuradio
 - zeromq
-description: connect to flowgraphs over a network to perform remote procedure calls
+description: Connect to flowgraphs over a network to perform remote procedure calls
 gitbranch: master
 inherit: cmake
 source: git+https://github.com/iohannez/gr-zmqblocks.git

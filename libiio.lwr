@@ -22,6 +22,7 @@ depends:
 - libxml
 - cmake
 - git
+description: Library for interfacing with IIO devices
 gitrev: 2015_R1
 inherit: cmake
 satisfy:

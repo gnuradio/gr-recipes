@@ -38,6 +38,7 @@ depends:
 - liblog4cpp
 - zeromq
 - python-zmq
+description: Free and open source toolkit for software defined radio
 category: common
 satisfy:
   deb: gnuradio-dev

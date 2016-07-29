@@ -23,6 +23,7 @@ depends:
 - git
 - cmake
 - libusb
+description: Collection of SDR related software and hardware projects
 gitbranch: master
 inherit: cmake
 installdir: software/libosmosdr/build

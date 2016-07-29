@@ -20,6 +20,7 @@
 category: dsplib
 depends:
 - libpcap
+description: A Blutetooth baseband decoding library
 gitbranch: master
 inherit: cmake
 source: git+https://github.com/greatscottgadgets/libbtbb.git

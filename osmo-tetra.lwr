@@ -19,6 +19,7 @@
 
 category: dsplib
 depends: null
+description: Tx and Rx for TETRA MAC/PHY layer
 gitbranch: master
 install: 'cp -v src/libosmo-tetra-mac.a $prefix/lib
 
@@ -31,7 +32,7 @@ install: 'cp -v src/libosmo-tetra-mac.a $prefix/lib
   find . -name ''*.h'' | cpio -pdm $prefix/include/osmo-tetra
 
   '
-make: 'cd src
+make: 'cd ../src
 
   export LD_LIBRARY_PATH=$prefix/lib/:$prefix/lib64/
 

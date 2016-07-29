@@ -23,6 +23,7 @@ depends:
 - git
 - cmake
 - libusb
+description: Host side drivers, libraries and utilities to interact with bladeRF platform
 gitbranch: master
 inherit: cmake
 installdir: host/build

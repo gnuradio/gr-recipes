@@ -20,6 +20,7 @@
 category: hardware
 depends:
 - libusb
+description: Library and commandline utilities for rtl-sdr
 gitbranch: master
 inherit: cmake
 satisfy:

@@ -28,6 +28,7 @@ depends:
 - automake
 - pcsclite
 - libtalloc-dev
+description: A library with generic ulitity functions developed by Osmocom project
 gitbranch: master
 inherit: autoconf
 source: git+git://git.osmocom.org/libosmocore.git

@@ -23,7 +23,7 @@ depends:
 - curl
 - git
 - cmake
-description: translation between streams of data and scheduled-finite length events
+description: Translation between streams of data and scheduled-finite length events
 gitbranch: master
 inherit: cmake
 source: git+https://github.com/osh/gr-eventstream.git
