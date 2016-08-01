@@ -22,3 +22,4 @@ satisfy:
   deb: python-zmq
   rpm: python-zmq
   port: py27-zmq
+  pacman: python2-pyzmq
