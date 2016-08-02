@@ -28,4 +28,5 @@ satisfy:
   deb: gr-iqbal
   port: gr-iqbalance
   portage: net-wireless/gr-iqbal
+  pacman: gnuradio-iqbal
 source: git+git://git.osmocom.org/gr-iqbal

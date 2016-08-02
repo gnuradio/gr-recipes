@@ -33,4 +33,5 @@ inherit: cmake
 satisfy:
   deb: gr-osmosdr
   port: gr-osmosdr
+  portage: gnuradio-osmosdr
 source: git+git://git.osmocom.org/gr-osmosdr

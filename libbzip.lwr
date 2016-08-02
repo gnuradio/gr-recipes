@@ -23,6 +23,7 @@ satisfy:
   deb: libbz2-dev
   rpm: bzip2-devel
   port: libzip
+  pacman: libzip
 inherit: autoconf
 configure: ''
 install: make install PREFIX=$prefix
