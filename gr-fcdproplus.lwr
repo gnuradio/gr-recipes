@@ -28,4 +28,5 @@ inherit: cmake
 satisfy:
   deb: gr-fcdproplus && qthid-fcd-controller
   port: gr-fcdproplus
+  pacman: gnuradio-fcdproplus
 source: git+https://github.com/dl1ksv/gr-fcdproplus.git

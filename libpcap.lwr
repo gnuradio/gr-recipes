@@ -23,4 +23,5 @@ satisfy:
   deb: libpcap-dev
   rpm: libpcap-devel
   port: libpcap
+  pacman: libpcap
 source: wget+http://www.tcpdump.org/release/libpcap-1.3.0.tar.gz

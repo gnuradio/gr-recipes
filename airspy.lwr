@@ -28,4 +28,5 @@ inherit: cmake
 satisfy:
   deb: airspy
   port: airspy
+  pacman: airspy
 source: git+https://github.com/airspy/host.git

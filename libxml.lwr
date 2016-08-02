@@ -23,4 +23,5 @@ satisfy:
   deb: libxml2-dev >= 2.7
   rpm: libxml2-devel >= 2.7
   port: libxml2 >= 2.7
+  pacman: libxml2 >= 2.7
 source: wget+http://xmlsoft.org/sources/libxml2-2.7.2.tar.gz
