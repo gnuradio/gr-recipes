@@ -30,4 +30,5 @@ installdir: software/libosmosdr/build
 makedir: software/libosmosdr/build
 satisfy:
   deb: osmo-sdr && libosmosdr-dev
+  pacman: gnuradio-osmosdr
 source: git+git://git.osmocom.org/osmo-sdr.git

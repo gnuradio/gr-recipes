@@ -29,4 +29,5 @@ satisfy:
   deb: wireshark
   cmd: wireshark --version >= 1.0
   port: wireshark
+  pacman: wireshark-gtk
 source: wget+http://wiresharkdownloads.riverbed.com/wireshark/src/all-versions/wireshark-1.10.2.tar.bz2
