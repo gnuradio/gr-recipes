@@ -22,4 +22,3 @@ category: baseline
 satisfy:
   deb: python-pygraphviz
   rpm: python-pygraphviz
-  

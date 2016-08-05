@@ -23,3 +23,4 @@ satisfy:
   rpm: ((libpulse-devel >= 1.1) || (libpulseaudio-devel >= 1.1) || (pulseaudio-libs-devel
     >= 6.0) )
   port: pulseaudio
+  pacman: libpulse && pulseaudio

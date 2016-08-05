@@ -23,4 +23,5 @@ category: baseline
 satisfy:
   deb: python-networkx
   rpm: python-networkx
+  pacman: python2-networkx
   
