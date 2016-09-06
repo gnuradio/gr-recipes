@@ -17,13 +17,9 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
-depends:
-- gnuradio
-- qt4
-- qwt6
-- qwtplot3d
-description: GNU Radio Signal Analysis Toolbox
-gitbranch: master
-inherit: cmake
-source: git+https://github.com/gnuradio/gr-inspector.git
+category: baseline
+satisfy:
+  deb: libqwt-dev >= 6.1
+  rpm: qwt-devel >= 6.1
+  port: qwt61
+  pacman: qwt >= 6.1
