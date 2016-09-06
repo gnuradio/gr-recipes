@@ -23,3 +23,4 @@ satisfy:
   rpm: python-zmq || python2-zmq
   port: py27-zmq
   pacman: python2-pyzmq
+  portage: dev-python/pyzmq
