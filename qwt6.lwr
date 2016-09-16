@@ -18,8 +18,18 @@
 #
 
 category: baseline
+configure: "cp qwtconfig.pri qwtconfig.pri.orig &&
+            reprefix=$(python -c 'import os; import re; print re.escape(os.environ[\"PYBOMBS_PREFIX\"])') &&
+            sed 's/\\/usr\\/local\\/qwt-\\$\\$QWT_VERSION/'\"${reprefix}\"'/' qwtconfig.pri  > qwtconfig.pri.tmp &&
+            cp qwtconfig.pri.tmp qwtconfig.pri &&
+            qmake "
+depends:
+- qt4
+inherit: autoconf
+make: "make    \n"
 satisfy:
   deb: libqwt-dev >= 6.1
   rpm: qwt-devel >= 6.1
   port: qwt61
   pacman: qwt >= 6.1
+source: wget+http://heanet.dl.sourceforge.net/project/qwt/qwt/6.1.0/qwt-6.1.0.tar.bz2
