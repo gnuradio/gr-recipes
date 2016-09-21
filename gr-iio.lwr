@@ -22,9 +22,11 @@ depends:
 - gnuradio
 - libiio
 - libad9361
+- flex
+- bison
 description: GNU Radio IIO Blocks
-gitbranch: gr-iio
+gitrev: tags/v0.2
 inherit: cmake
 satisfy:
-  deb: gr-iio
-source: git+https://github.com/analogdevicesinc/gnuradio.git
+  deb: gr-iio >= 0.2
+source: git+https://github.com/analogdevicesinc/gr-iio.git
