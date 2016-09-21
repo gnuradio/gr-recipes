@@ -20,13 +20,14 @@
 category: hardware
 depends:
 - libxml
+- libusb
 - cmake
 - git
 description: Library for interfacing with IIO devices
-gitrev: 2015_R1
+gitrev: tags/v0.7
 inherit: cmake
 satisfy:
-  deb: libiio0 >= 0.5 && libiio-dev >= 0.5
+  deb: libiio0 >= 0.7 && libiio-dev >= 0.7
 source: git+https://github.com/analogdevicesinc/libiio
 vars:
   config_opt: ' -DWITH_IIOD:BOOL=OFF '
