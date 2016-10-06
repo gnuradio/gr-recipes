@@ -17,17 +17,19 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: hardware
+category: baseline
+configure: "cp qwtconfig.pri qwtconfig.pri.orig &&
+            reprefix=$(python -c 'import os; import re; print re.escape(os.environ[\"PYBOMBS_PREFIX\"])') &&
+            sed 's/\\/usr\\/local\\/qwt-\\$\\$QWT_VERSION/'\"${reprefix}\"'/' qwtconfig.pri  > qwtconfig.pri.tmp &&
+            cp qwtconfig.pri.tmp qwtconfig.pri &&
+            qmake "
 depends:
-- libxml
-- libusb
-- cmake
-- git
-description: Library for interfacing with IIO devices
-gitrev: tags/v0.7
-inherit: cmake
+- qt4
+inherit: autoconf
+make: "make    \n"
 satisfy:
-  deb: libiio0 >= 0.7 && libiio-dev >= 0.7
-source: git+https://github.com/analogdevicesinc/libiio
-vars:
-  config_opt: ' -DWITH_IIOD:BOOL=OFF '
+  deb: libqwt-dev >= 6.1
+  rpm: qwt-devel >= 6.1
+  port: qwt61
+  pacman: qwt >= 6.1
+source: wget+http://heanet.dl.sourceforge.net/project/qwt/qwt/6.1.0/qwt-6.1.0.tar.bz2

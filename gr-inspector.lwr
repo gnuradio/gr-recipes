@@ -20,7 +20,10 @@
 category: common
 depends:
 - gnuradio
-description: Some hamradio ax.25 routines for gnuradio
+- qt4
+- qwt6
+- qwtplot3d
+description: GNU Radio Signal Analysis Toolbox
 gitbranch: master
 inherit: cmake
-source: git+https://github.com/dl1ksv/gr-ax25.git
+source: git+https://github.com/gnuradio/gr-inspector.git
