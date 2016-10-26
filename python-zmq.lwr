@@ -20,8 +20,9 @@
 category: baseline
 satisfy:
   deb: python-zmq
-  rpm: python-zmq || python2-zmq
+  rpm: python-zmq || python2-zmq || python-pyzmq
   port: py27-zmq
   pacman: python2-pyzmq
   portage: dev-python/pyzmq
   python: zmq
+  pip: pyzmq

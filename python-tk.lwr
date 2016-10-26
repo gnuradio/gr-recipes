@@ -23,5 +23,5 @@ depends:
 description: A module for writing portable GUI applications with Python using Tk.
 satisfy:
   deb: python-tk
-  rpm: python-tkinter
+  rpm: python-tkinter || python-tk
   port: py27-tkinter

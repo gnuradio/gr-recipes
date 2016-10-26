@@ -21,9 +21,10 @@ category: baseline
 depends: null
 satisfy:
   deb: python-twisted || python-twisted-core
-  rpm: python2-twisted || python-twisted || python-twisted-core
+  rpm: python2-twisted || python-twisted || python-twisted-core || python-Twisted
   pacman: python2-twisted
   cmd: trial
   port: py27-twisted
   portage: dev-python/twisted-core
   python: twisted
+  pip: Twisted
