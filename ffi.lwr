@@ -24,7 +24,7 @@ depends:
 inherit: autoconf
 satisfy:
   deb: libffi6
-  rpm: libffi-devel
+  rpm: libffi-devel || libffi-devel-gcc5
   pacman: libffi
   port: libffi
 source: wget+https://www.mirrorservice.org/sites/sourceware.org/pub/libffi/libffi-3.0.9.tar.gz

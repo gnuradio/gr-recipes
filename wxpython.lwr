@@ -40,8 +40,9 @@ make: 'make && \
 
   '
 satisfy:
+  pip: wxPython
   deb: python-wxgtk2.8 || python-wxgtk3.0
-  rpm: wxPython
+  rpm: wxPython || python-wxWidgets-3_0-devel
   port: wxPython-3.0 && py27-wxpython-3.0
   portage: dev-python/wxpython
   pacman: wxpython
