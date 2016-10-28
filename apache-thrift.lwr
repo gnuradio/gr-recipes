@@ -25,7 +25,7 @@ configure: './bootstrap.sh && ./configure --prefix=$prefix
   --without-perl --without-php --without-ruby --without-zlib
   --without-qt4 --without-qt5
   --disable-tests --disable-tutorial $config_opt
-  CC=$cc CXX=$cxx PY_PREFIX=$prefix CXXFLAGS="-DNDEBUG"
+  PY_PREFIX=$prefix CXXFLAGS="-DNDEBUG"
   '
 depends:
 - libtool
