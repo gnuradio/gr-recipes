@@ -19,14 +19,10 @@
 
 category: baseline
 depends:
-- subversion
 - cmake
-install: 'mkdir -p $prefix/gtest && cp -R include $prefix/gtest && cp -R src $prefix/gtest
-
-  '
-make: 'cmake .
-
-  '
+install: mkdir -p $prefix/gtest && cp -R include $prefix/gtest && cp -R src $prefix/gtest
+make: cmake .
+inherit: empty
 satisfy:
   deb: libgtest-dev
   port: gtest

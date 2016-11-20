@@ -19,15 +19,11 @@
 
 category: common
 configure: 'autoreconf -i
-
   ./configure --prefix=$prefix $config_opt
-
   '
 depends:
-- autoconf
 - libtool
 - automake
-- git
 - libusb
 description: Perseus SDR access library
 gitbranch: master

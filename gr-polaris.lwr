@@ -18,9 +18,6 @@
 #
 
 category: hardware
-depends:
-- git
-- cmake
 gitbranch: master
 inherit: cmake
 source: git+https://github.com/drs-ss/gr-polaris.git

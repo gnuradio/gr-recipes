@@ -19,8 +19,6 @@
 
 category: hardware
 depends:
-- git
-- cmake
 - libusb
 description: Host side software for AirSpy dongles
 gitbranch: master

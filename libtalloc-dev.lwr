@@ -19,8 +19,6 @@
 
 category: baseline
 depends:
-- git
-- make
 - libtool
 inherit: autoconf
 satisfy:

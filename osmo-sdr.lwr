@@ -20,8 +20,6 @@
 category: hardware
 configuredir: software/libosmosdr/build
 depends:
-- git
-- cmake
 - libusb
 description: Collection of SDR related software and hardware projects
 gitbranch: master

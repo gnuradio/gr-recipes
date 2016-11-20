@@ -22,7 +22,6 @@ depends:
 - gnuradio
 - uhd
 - curl
-- cmake
 - armadillo
 - gr-compat
 description: Collection of new blocks for GNU Radio http://wiki.spench.net/wiki/gr-baz

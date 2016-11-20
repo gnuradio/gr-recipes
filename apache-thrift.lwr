@@ -29,8 +29,6 @@ configure: './bootstrap.sh && ./configure --prefix=$prefix
   '
 depends:
 - libtool
-- automake
-- gcc
 - boost
 - bison
 - flex

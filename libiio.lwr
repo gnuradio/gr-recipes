@@ -21,8 +21,6 @@ category: hardware
 depends:
 - libxml
 - libusb
-- cmake
-- git
 description: Library for interfacing with IIO devices
 gitrev: tags/v0.7
 inherit: cmake

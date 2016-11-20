@@ -31,7 +31,6 @@ depends:
 - lxml
 - pygtk
 - pycairo
-- cmake
 - pyqt4
 - pyqwt5
 - apache-thrift

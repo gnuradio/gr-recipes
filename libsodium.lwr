@@ -19,14 +19,9 @@
 
 category: baseline
 configure: 'autoreconf -i
-
   ./configure --prefix=$prefix $config_opt
-
   '
 depends:
-- make
-- git
-- autoconf
 - automake
 gitbranch: master
 inherit: autoconf

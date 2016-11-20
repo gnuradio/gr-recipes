@@ -19,7 +19,6 @@
 
 category: baseline
 depends:
-- cmake
 - gmp
 - mpfr
 - gfortran
