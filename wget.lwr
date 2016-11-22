@@ -24,3 +24,4 @@ satisfy:
   cmd: wget
   pacman: wget
   port: wget
+  portage: net-libs/wget
