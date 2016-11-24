@@ -26,4 +26,4 @@ satisfy:
   port: portaudio
   portage: media-libs/portaudio
   pkgconfig: alsa
-source: wget+http://www.tux.org/pub/sites/ftp.alsa-project.org/lib/alsa-lib-1.0.27.2.tar.bz2
+source: wget+http://ftp.osuosl.org/pub/blfs/conglomeration/alsa-lib/alsa-lib-1.0.27.2.tar.bz2
