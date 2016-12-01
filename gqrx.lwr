@@ -28,9 +28,9 @@ description: A SDR receiver using GNU Radio SDR framework and Qt graphical toolk
 gitbranch: master
 inherit: cmake
 install: 'cp src/gqrx $prefix/bin/'
+uninstall: 'rm $prefix/bin/gqrx'
 satisfy:
   deb: gqrx-sdr
   port: gqrx
   pacman: gqrx
 source: git+https://github.com/csete/gqrx.git
-uninstall: 'rm $prefix/bin/gqrx'
