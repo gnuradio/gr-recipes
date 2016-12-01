@@ -17,16 +17,19 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: baseline
-depends:
-- wget
-- pkg-config
+
+# A special recipe for guaranteeing that CMake is at least version 3.1.
+# Depend on this recipe to make sure you have an up-to-date version of CMake.
+#
+# The vanilla, baseline CMake recipe is in the PyBOMBS source tree.
+
 inherit: autoconf
+category: baseline
 satisfy:
-  deb: (cmake >= 2.8.3) && (cmake-data >= 2.8.3)
-  rpm: (cmake >= 2.8.3)
-  pacman: cmake >= 2.8.3
-  port: cmake >= 2.8.3
-  portage: dev-util/cmake >= 2.8.3
-  cmd: cmake --version >= 2.8.3
+  deb: (cmake >= 3.1.0) && (cmake-data >= 3.1.0)
+  rpm: (cmake >= 3.1.0)
+  pacman: cmake >= 3.1.0
+  port: cmake >= 3.1.0
+  portage: dev-util/cmake >= 3.1.0
+  cmd: cmake --version >= 3.1.0
 source: wget+http://cmake.org/files/v3.7/cmake-3.7.0.tar.gz
