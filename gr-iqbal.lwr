@@ -24,9 +24,5 @@ depends:
 description: Gnuradio I/Q balancing
 gitbranch: master
 inherit: cmake
-satisfy:
-  deb: gr-iqbal
-  port: gr-iqbalance
-  portage: net-wireless/gr-iqbal
-  pacman: gnuradio-iqbal
+# Let's always build this from source, not binaries
 source: git+git://git.osmocom.org/gr-iqbal

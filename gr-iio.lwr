@@ -27,6 +27,5 @@ depends:
 description: GNU Radio IIO Blocks
 gitrev: tags/v0.2
 inherit: cmake
-satisfy:
-  deb: gr-iio >= 0.2
+# Let's always build this from source, not binaries
 source: git+https://github.com/analogdevicesinc/gr-iio.git

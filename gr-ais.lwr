@@ -23,6 +23,5 @@ depends:
 description: Automatic Information System decoder for shipborne position reporting
 gitbranch: master
 inherit: cmake
-satisfy:
-  port: gr-ais
+# No satisfy lines here -- there's no reason not to always install this from source.
 source: git+https://github.com/bistromath/gr-ais.git

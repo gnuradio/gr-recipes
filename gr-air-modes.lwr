@@ -22,13 +22,9 @@ depends:
 - gnuradio
 - python-zmq
 - pyqt4-dev-tools
-description: Gnuradio Mode-S/ADS-B decoder
+description: GNU Radio Mode-S/ADS-B decoder
 gitbranch: master
 inherit: cmake
-make: 'make -j1
-
-  '
-satisfy:
-  deb: gr-air-modes
-  port: gr-air-modes
+make: make -j1
+# No satisfy lines here -- there's no reason not to always install this from source.
 source: git+https://github.com/bistromath/gr-air-modes.git
