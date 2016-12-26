@@ -17,17 +17,13 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: application
-configuredir: build
+category: baseline
 depends:
-- gnuradio
-- armadillo
-- gnutls
-- mako
-description: An open source GNSS software defined receiver
-gitbranch: next
-inherit: cmake
-makedir: build
+- python
+inherit: distutils
 satisfy:
-  port: gnss-sdr
-source: git+http://github.com/gnss-sdr/gnss-sdr.git
+  deb: python-six >= 1.0
+  rpm: python-six >= 1.0
+  pip: six
+  pacman: python2-six >= 1.0
+  port: py27-six >= 1.0
