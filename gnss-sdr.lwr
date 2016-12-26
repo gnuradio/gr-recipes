@@ -24,6 +24,7 @@ depends:
 - armadillo
 - gnutls
 - mako
+- six
 description: An open source GNSS software defined receiver
 gitbranch: next
 inherit: cmake
