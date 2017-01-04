@@ -27,3 +27,4 @@ satisfy:
   pip: six
   pacman: python2-six >= 1.0
   port: py27-six >= 1.0
+  python: six >= 1.0

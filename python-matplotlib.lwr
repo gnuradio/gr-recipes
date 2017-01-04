@@ -27,3 +27,4 @@ satisfy:
   rpm: python-matplotlib
   port: py27-matplotlib
   pacman: python2-matplotlib
+  python: matplotlib

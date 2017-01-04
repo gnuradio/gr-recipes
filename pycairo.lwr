@@ -18,23 +18,18 @@
 #
 
 category: baseline
-configure: './waf configure --prefix=$prefix
-
-  '
+configure: ./waf configure --prefix=$prefix
 depends:
 - cairo
 - python
-install: './waf install
-
-  '
+install: ./waf install
 install_like: cairo
-make: './waf build
-
-  '
+make: ./waf build
 satisfy:
   deb: python-cairo-dev >= 1.8
   rpm: pycairo-devel >= 1.8
   pacman: python2-cairo >= 1.8
   port: py27-cairo >= 1.8
   portage: dev-python/pycairo >= 1.8
+  python: cairo.version >= 1.8
 source: wget+http://cairographics.org/releases/py2cairo-1.8.10.tar.gz

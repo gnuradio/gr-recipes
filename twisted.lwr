@@ -26,3 +26,4 @@ satisfy:
   cmd: trial
   port: py27-twisted
   portage: dev-python/twisted-core
+  python: twisted
