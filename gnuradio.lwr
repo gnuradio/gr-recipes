@@ -41,6 +41,7 @@ description: Free and open source toolkit for software defined radio
 category: common
 satisfy:
   deb: gnuradio-dev
+  rpm: gnuradio-devel
   pacman: gnuradio
   port: gnuradio
   portage: net-wireless/gnuradio
