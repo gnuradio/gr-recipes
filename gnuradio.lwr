@@ -32,6 +32,7 @@ depends:
 - pygtk
 - pycairo
 - pyqt4
+- qwt5
 - pyqwt5
 - apache-thrift
 - liblog4cpp
