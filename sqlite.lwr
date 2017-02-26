@@ -17,19 +17,7 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
-depends:
-- uhd
-- rtl-sdr
-- osmo-sdr
-- hackrf
-- gnuradio
-- gr-iqbal
-- bladeRF
-- airspy
-- soapysdr
-description: Interface API independent of the underlying radio hardware
-gitbranch: master
-inherit: cmake
-# Let's always build this from source, not binaries
-source: git+git://git.osmocom.org/gr-osmosdr
+category: baseline
+depends: null
+satisfy:
+  deb: libsqlite3-dev
