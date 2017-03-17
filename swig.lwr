@@ -23,7 +23,7 @@ depends:
 - gcc
 inherit: autoconf
 satisfy:
-  deb: swig3.0 || swig2.0
+  deb: swig2.0 || swig3.0
   rpm: swig >= 2.0
   pacman: swig >= 2.0
   port: swig-python >= 2.0
