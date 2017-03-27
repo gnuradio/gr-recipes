@@ -18,7 +18,8 @@
 #
 
 category: baseline
-depends: null
+depends:
+- python
 satisfy:
   deb: python-twisted || python-twisted-core
   rpm: python2-twisted || python-twisted || python-twisted-core || python-Twisted
