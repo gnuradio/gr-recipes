@@ -21,7 +21,7 @@ category: baseline
 depends:
 - python
 - swig
-- gobject-introspection
+#- gobject-introspection
 - gtk2
 inherit: autoconf
 install_like: gobject-introspection
