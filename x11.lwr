@@ -20,7 +20,7 @@
 category: baseline
 depends: null
 satisfy:
-  deb: libx11-dev && libxrender-dev
+  deb: (libx11-dev || libX11-dev) && libxrender-dev
   rpm: libX11-devel && libXrender-devel && libXext-devel
   pacman: libx11 && libxrender
   port: xorg-libX11
