@@ -19,8 +19,8 @@
 
 category: baseline
 configure: "cp qwtconfig.pri qwtconfig.pri.orig &&  
-            reprefix=$(python -c 'import os; import re; print re.escape(os.environ[\"PYBOMBS_PREFIX\"])') &&
-            sed 's/\\/usr\\/local\\/qwt-5.2.0/'\"${reprefix}\"'/' qwtconfig.pri  > qwtconfig.pri.tmp && 
+            reprefix=$(python -c 'import os; import re; print (re.escape(os.environ[\"PYBOMBS_PREFIX\"]))') &&
+            sed 's/\\/usr\\/local\\/qwt-$$VERSION/'\"${reprefix}\"'/' qwtconfig.pri  > qwtconfig.pri.tmp && 
             cp qwtconfig.pri.tmp qwtconfig.pri && 
             qmake "
 depends:
@@ -32,4 +32,4 @@ satisfy:
   rpm: qwt-devel >= 5.2
   port: qwt52 >= 5.2
   pacman: qwt5 >= 5.2
-source: wget+http://prdownloads.sourceforge.net/qwt/qwt-5.2.0.tar.bz2
+source: wget+http://prdownloads.sourceforge.net/qwt/qwt-5.2.3.tar.bz2
