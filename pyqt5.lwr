@@ -27,8 +27,8 @@ inherit: autoconf
 install_like: qt5
 satisfy:
   deb: ( pyqt5-dev >= 5.3.2 ) && ( pyqt5-dev-tools >= 5.3.2 )
-  rpm: ( python-qt5 >= 5.8.2 ) && ( python-qt5-devel >= 5.8.2 )
+  rpm: python-qt5 && python-qt5-devel
   pacman: python-pyqt5
   port: py27-qt5 >= 5.7.1
   portage: dev-python/PyQt5 >= 5.7.1
-source: wget+https://sourceforge.net/projects/pyqt/files/PyQt5/PyQt-5.8.2/PyQt5_gpl-5.8.2.tar.gz
+source: wget+https://sourceforge.net/projects/pyqt/files/PyQt5/PyQt-5.6/PyQt5_gpl-5.6.tar.gz
