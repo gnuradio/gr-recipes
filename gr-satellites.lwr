@@ -21,6 +21,7 @@ category: common
 depends:
 - gnuradio
 - libfec
+- pyconstruct
 description: GNU Radio decoders for several Amateur satellites
 gitbranch: master
 inherit: cmake
