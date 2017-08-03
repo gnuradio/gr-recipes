@@ -28,6 +28,7 @@ satisfy:
   cmd: cheetah --version >= 2.0
   port: py27-cheetah >= 2.0
   portage: dev-python/cheetah >= 2.0
+  pip: Cheetah >= 2.0
 source:
   - git+https://github.com/cheetahtemplate/cheetah.git
   - wget+http://prdownloads.sourceforge.net/cheetahtemplate/Cheetah-2.0.1.tar.gz

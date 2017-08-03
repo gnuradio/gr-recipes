@@ -21,7 +21,7 @@ category: baseline
 inherit: autoconf
 satisfy:
   deb: libqt4-dev >= 4.6.2
-  rpm: qt-devel >= 4.6.2 || qt4-devel >= 4.6.2
+  rpm: qt-devel >= 4.6.2 || qt4-devel >= 4.6.2 || libqt4-devel >= 4.6.2
   pacman: qt4 >= 4.6.2
   port: qt4-mac >= 4.6.2
 source: wget+https://download.qt.io/archive/qt/4.6/qt-everywhere-opensource-src-4.6.2.tar.gz

@@ -25,7 +25,7 @@ inherit: distutils
 satisfy:
   pip: numpy >= 1.5
   deb: python-numpy >= 1.5
-  rpm: numpy >= 1.5 || python2-numpy >= 1.5
+  rpm: numpy >= 1.5 || python-numpy >= 1.5 || python2-numpy >= 1.5
   pacman: python2-numpy >= 1.5
   port: py27-numpy >= 1.5
   portage: dev-python/numpy >= 1.5
