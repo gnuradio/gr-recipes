@@ -25,7 +25,7 @@ depends:
 inherit: distutils
 satisfy:
   deb: python-scipy >= 0.8
-  rpm: scipy || python-scipy
+  rpm: scipy || python-scipy || python2-scipy
   pacman: python2-scipy >= 0.8
   port: py27-scipy >= 0.8
   python: scipy >= 0.8
