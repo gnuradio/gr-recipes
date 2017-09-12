@@ -21,4 +21,4 @@ depends: null
 category: baseline
 satisfy:
   deb: python-pygraphviz
-  rpm: python-pygraphviz
+  rpm: python-pygraphviz || python2-pygraphviz
