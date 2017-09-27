@@ -23,7 +23,7 @@ depends:
 - numpy
 - pyyaml
 - dateutil
-- requests
+- python-requests
 description: Python plotting library
 inherit: distutils
 satisfy:
