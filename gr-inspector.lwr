@@ -23,6 +23,7 @@ depends:
 - qt4
 - qwt6
 - qwtplot3d
+- gr-specest
 description: GNU Radio Signal Analysis Toolbox
 gitbranch: master
 inherit: cmake
