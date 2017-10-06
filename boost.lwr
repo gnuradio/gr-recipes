@@ -27,7 +27,7 @@ install: cd .. && ./b2 --threading=multi --layout=tagged link=shared -j$makewidt
 install_static: cd .. && ./bjam cxxflags='-fPIC' --threading=multi --layout=tagged link=static -j$makewidth install --build-dir=build
 satisfy:
   deb: libboost-all-dev >= 1.53 || libboost-dev >= 1.53
-  rpm: (boost-devel >= 1.53) || (boost_1_61-devel >= 1.53)
+  rpm: (boost-devel >= 1.53) || (boost_1_61-devel >= 1.53) || (boost_1_64-devel >= 1.53) || (boost_1_65-devel >= 1.53)
   pacman: boost >= 1.53
   port: boost >= 1.53
   portage: dev-libs/boost >= 1.53
