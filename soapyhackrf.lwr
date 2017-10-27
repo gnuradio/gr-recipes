@@ -17,12 +17,11 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: baseline
+category: hardware
 depends:
-- qt4
-satisfy:
-  deb: libqwtplot3d-qt4-dev
-  rpm: qwtplot3d-qt4-devel
-  pacman: qwtplot3d
-  port: qwtplot3d
-  portage: x11-libs/qwtplot3d
+- soapysdr
+- hackrf
+description: Soapy SDR module for HackRF
+gitbranch: master
+inherit: cmake
+source: git+https://github.com/pothosware/SoapyHackRF.git

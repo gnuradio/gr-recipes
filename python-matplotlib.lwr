@@ -28,3 +28,4 @@ satisfy:
   port: py27-matplotlib
   pacman: python2-matplotlib
   python: matplotlib
+  portage: dev-python/matplotlib

@@ -24,7 +24,7 @@ configure: "cp qwtconfig.pri qwtconfig.pri.orig &&
             cp qwtconfig.pri.tmp qwtconfig.pri &&
             qmake "
 depends:
-- qt4
+- qt5
 inherit: autoconf
 make: "make    \n"
 satisfy:

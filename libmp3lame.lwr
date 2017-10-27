@@ -23,3 +23,4 @@ satisfy:
   rpm: lame-devel
   port: lame
   pacman: lame
+  portage: media-sound/lame

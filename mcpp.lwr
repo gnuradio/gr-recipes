@@ -33,6 +33,7 @@ satisfy:
   rpm: mcpp-devel >= 2.7.2
   port: mcpp >= 2.7.2
   pacman: mcpp >= 2.7.2
+  portage: dev-cpp/libmcpp >= 2.7.2
 source:
 - file+dist/mcpp_2.7.2.orig.tar.gz
 - wget+http://aptproxy.willowgarage.com/archive.ubuntu.com/ubuntu/pool/universe/m/mcpp/mcpp_2.7.2.orig.tar.gz

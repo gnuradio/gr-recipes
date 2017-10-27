@@ -18,7 +18,7 @@
 #
 
 category: common
-configure: 'autoreconf -i
+configure: 'autoreconf -i &&
   ./configure --prefix=$prefix $config_opt
   '
 depends:
