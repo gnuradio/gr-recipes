@@ -20,7 +20,7 @@
 category: baseline
 satisfy:
   deb: pkg-config
-  rpm: pkgconfig || pkg-config
+  rpm: pkgconfig || pkg-config || pkgconf-pkg-config
   pacman: pkg-config
   port: pkgconfig
   portage: dev-util/pkgconfig
