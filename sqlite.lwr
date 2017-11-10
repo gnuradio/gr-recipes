@@ -22,4 +22,3 @@ depends: null
 satisfy:
   deb: libsqlite3-dev
   rpm: sqlite-devel
-
