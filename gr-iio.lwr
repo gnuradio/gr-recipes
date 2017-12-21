@@ -25,7 +25,7 @@ depends:
 - flex
 - bison
 description: GNU Radio IIO Blocks
-gitrev: tags/v0.2
+gitrev: tags/v0.3
 inherit: cmake
 # Let's always build this from source, not binaries
 source: git+https://github.com/analogdevicesinc/gr-iio.git
