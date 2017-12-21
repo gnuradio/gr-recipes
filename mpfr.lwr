@@ -26,6 +26,7 @@ satisfy:
   rpm: mpfr-devel >= 3.0.0
   port: mpfr >= 3.0.0
   pacman: mpfr >= 3.0.0
+  portage: dev-libs/mpfr >= 3.0.0
 source: wget+http://www.mpfr.org/mpfr-3.0.0/mpfr-3.0.0.tar.gz
 vars:
   config_opt: ' --with-gmp-include=$prefix/include/ --with-gmp-lib=$prefix/lib/ '

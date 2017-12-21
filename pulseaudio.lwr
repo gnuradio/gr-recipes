@@ -24,3 +24,4 @@ satisfy:
     >= 6.0) )
   port: pulseaudio
   pacman: libpulse && pulseaudio
+  portage: media-sound/pulseaudio

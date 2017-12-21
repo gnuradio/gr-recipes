@@ -17,13 +17,11 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
-configure: 'autoreconf -i && ./configure --prefix=$prefix $config_opt '
+category: hardware
 depends:
-- libtool
-- automake
-- libusb
-description: Perseus SDR access library
+- soapysdr
+- hackrf
+description: Soapy SDR module for HackRF
 gitbranch: master
-inherit: autoconf
-source: git+https://github.com/amontefusco/libperseus-sdr
+inherit: cmake
+source: git+https://github.com/pothosware/SoapyHackRF.git

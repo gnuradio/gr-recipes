@@ -24,5 +24,6 @@ satisfy:
   rpm: doxygen
   cmd: doxygen --version
   pacman: doxygen
+  portage: app-doc/doxygen
 source: git+https://github.com/doxygen/doxygen.git
 

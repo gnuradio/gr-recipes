@@ -24,6 +24,7 @@ satisfy:
   rpm: bzip2-devel || libbz2-devel
   port: libzip
   pacman: libzip
+  portage: app-arch/bzip2
 inherit: autoconf
 configure: ''
 install: make install PREFIX=$prefix
