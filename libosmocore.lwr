@@ -28,6 +28,7 @@ depends:
 - automake
 - pcsclite
 - libtalloc-dev
+- gnutls
 description: A library with generic ulitity functions developed by Osmocom project
 gitbranch: master
 inherit: autoconf
