@@ -17,16 +17,11 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
+category: baseline
 depends:
-- gnuradio
-- gr-burst
-- gr-mapper
-- gr-eventstream
-- gr-pyqt
-- scipy
-- pybitarray
-description: GNU Radio message based burst PSK Transmitter and Receiver
-gitbranch: master
-inherit: empty
-source: git+https://github.com/osh/gr-psk-burst.git
+- python
+satisfy:
+  deb: python-bitarray
+  rpm: python2-bitarray
+  port: pybitarray
+  pip: bitarray
