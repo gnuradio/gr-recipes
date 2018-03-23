@@ -18,7 +18,8 @@
 #
 
 category: dsplib
-depends: null
+depends:
+- libosmocore
 description: Tx and Rx for TETRA MAC/PHY layer
 gitbranch: master
 install: 'cp -v src/libosmo-tetra-mac.a $prefix/lib
