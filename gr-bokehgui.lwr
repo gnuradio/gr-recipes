@@ -24,4 +24,4 @@ depends:
 description: Web based display for GNU Radio
 gitbranch: master
 inherit: cmake
-source: git+https://github.com/gnuradio/gr-bokehgui.git
+source: git+https://github.com/kartikp1995/gr-bokehgui.git
