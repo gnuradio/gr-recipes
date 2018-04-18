@@ -29,7 +29,7 @@ config:
     doxygen:
       optional: True
     gnuradio:
-      gitbranch: maint
+      gitbranch: maint-3.7
     uhd:
       gitbranch: maint
     gqrx:
