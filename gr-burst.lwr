@@ -22,6 +22,7 @@ depends:
 - gnuradio
 - gr-mapper
 - gr-eventstream
+- pybitarray
 description: Burst PSK Modem Building Blocks for GNU Radio
 gitbranch: master
 inherit: cmake
