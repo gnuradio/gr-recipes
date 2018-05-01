@@ -17,19 +17,9 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: application
-configuredir: build
-depends:
-- gnuradio
-- armadillo
-- gnutls
-- mako
-- six
-- matio
-description: An open source GNSS software defined receiver
-gitbranch: next
-inherit: cmake
-makedir: build
+category: baseline
+description: MATLAB/Octave MAT File I/O Library
 satisfy:
-  port: gnss-sdr
-source: git+http://github.com/gnss-sdr/gnss-sdr.git
+  deb: libmatio-dev
+  rpm: matio-devel
+  port: matio
