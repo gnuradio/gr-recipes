@@ -19,12 +19,9 @@
 
 category: hardware
 depends:
-- libusb
-description: Host side software for AirSpy dongles
+- soapysdr
+- airspy
+description: Soapy SDR module for Airspy
 gitbranch: master
 inherit: cmake
-satisfy:
-  deb: airspy
-  port: airspy
-  pacman: airspy
-source: git+https://github.com/airspy/airspyone_host.git
+source: git+https://github.com/pothosware/SoapyAirspy.git
