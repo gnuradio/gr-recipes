@@ -18,7 +18,7 @@
 #
 
 category: dsplib
-configure: autoreconf -i && ./configure --prefix=$prefix $config_opt
+configure: autoreconf -i -I /usr/share/aclocal && ./configure --prefix=$prefix $config_opt
 depends:
 - fftw
 - autoconf
