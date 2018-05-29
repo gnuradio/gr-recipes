@@ -28,6 +28,7 @@ satisfy:
   port: rtl-sdr
   portage: net-wireless/rtl-sdr
   pacman: rtl-sdr
+  rpm: rtl-sdr
 source: git+git://git.osmocom.org/rtl-sdr
 vars:
   config_opt: ' -DDETACH_KERNEL_DRIVER=ON '
