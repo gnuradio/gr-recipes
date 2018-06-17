@@ -23,4 +23,3 @@ satisfy:
   deb: libudev-dev
   rpm: libgudev-devel || libudev-devel || libgudev1-devel
   portage: virtual/libudev
-  rpm: libgudev-devel
