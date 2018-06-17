@@ -22,3 +22,7 @@ category: baseline
 satisfy:
   deb: python-pygraphviz
   rpm: python-pygraphviz || python2-pygraphviz
+  rpm: python-pygraphviz
+satisfy@python3:
+  deb: python3-pygraphviz
+  rpm: python3-pygraphviz

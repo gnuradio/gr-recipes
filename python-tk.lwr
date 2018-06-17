@@ -26,3 +26,5 @@ satisfy:
   rpm: python-tkinter || python-tk || python2-tkinter || tkinter
   port: py27-tkinter
   portage: dev-lang/python && dev-lang/tk
+satisfy@python3:
+  deb: python3-tk

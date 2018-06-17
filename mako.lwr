@@ -29,3 +29,6 @@ satisfy:
   port: py27-mako >= 0.4.2
   python: mako >= 0.4.2
   portage: dev-python/mako
+satisfy@python3:
+  deb: python3-mako >= 0.4.2
+  rpm: python3-mako >= 0.4.2

@@ -29,3 +29,6 @@ satisfy:
   pacman: python2-matplotlib
   python: matplotlib
   portage: dev-python/matplotlib
+satisfy@python3:
+  deb: python3-matplotlib
+  rpm: python3-matplotlib

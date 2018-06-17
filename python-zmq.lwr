@@ -26,3 +26,5 @@ satisfy:
   portage: dev-python/pyzmq
   python: zmq
   pip: pyzmq
+satisfy@python3:
+  deb: python3-zmq
