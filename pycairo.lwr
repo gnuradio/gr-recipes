@@ -34,10 +34,8 @@ satisfy:
   portage: dev-python/pycairo >= 1.8
   python: cairo.version >= 1.8
   pip: pycairo >= 1.8
-#source: wget+http://cairographics.org/releases/py2cairo-1.8.10.tar.gz
-source: git+git://git.cairographics.org/git/py2cairo
+source: wget+http://www.cairographics.org/releases/cairo-1.10.0.tar.gz
 configure: sh ./autogen.sh --prefix=$prefix
 satisfy@python3:
   deb: python3-cairo-dev >= 1.8
   rpm: python3-cairo-devel >= 1.8
-source: wget+http://cairographics.org/releases/py2cairo-1.8.10.tar.gz
