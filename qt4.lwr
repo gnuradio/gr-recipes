@@ -26,5 +26,6 @@ satisfy:
   port: qt4-mac >= 4.6.2
   portage: dev-qt/qtgui >= 4.6.2
 source: wget+https://download.qt.io/archive/qt/4.6/qt-everywhere-opensource-src-4.6.2.tar.gz
+
 vars:
   config_opt: -opensource --confirm-license -L$prefix/lib -L$prefix/lib64
