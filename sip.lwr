@@ -18,18 +18,17 @@
 #
 
 category: baseline
-configure: 'python configure.py -b $prefix/bin -e $prefix/include/ -d $prefix/lib/python2.6/site-packages/
-  -v $prefix/share/sip/
-
-  '
+configure: 'python configure.py -b $prefix/bin -e $prefix/include/python2.7 -d $prefix/lib/python2.7/site-packages/ -v $prefix/share/sip/ INCDIR=$prefix/include/python2.7'
 depends:
 - python
 inherit: autoconf
 install_like: python
 satisfy:
   deb: python-sip-dev >= 4.10.1
-  rpm: sip-devel >= 4.10.1
+  rpm: sip-devel >= 4.10.1 || python-sip-devel >= 4.10.1
   pacman: python2-sip >= 4.10.1
   port: py27-sip >= 4.10.1
   python: sip.SIP_VERSION_STR >= 4.10.1
+  pip: SIP
+  portage: dev-python/sip >= 4.10.1
 source: wget+http://pkgs.fedoraproject.org/repo/pkgs/sip/sip-4.10.1.tar.gz/9fa0b0d17ad355bde004317f67c819f9/sip-4.10.1.tar.gz

@@ -24,4 +24,5 @@ satisfy:
   rpm: faad2-devel
   pacman: faad2
   port: faad2
+  portage: media-libs/faad2
 source: wget+http://downloads.sourceforge.net/faac/faad2-2.7.tar.gz

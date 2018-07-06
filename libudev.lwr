@@ -21,4 +21,5 @@ category: baseline
 depends: null
 satisfy:
   deb: libudev-dev
-  rpm: libgudev-devel
+  rpm: libgudev-devel || libudev-devel || libgudev1-devel
+  portage: virtual/libudev

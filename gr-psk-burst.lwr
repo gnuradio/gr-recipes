@@ -24,6 +24,9 @@ depends:
 - gr-mapper
 - gr-eventstream
 - gr-pyqt
+- scipy
+- pybitarray
+- pyqwt5
 description: GNU Radio message based burst PSK Transmitter and Receiver
 gitbranch: master
 inherit: empty

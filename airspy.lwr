@@ -27,4 +27,4 @@ satisfy:
   deb: airspy
   port: airspy
   pacman: airspy
-source: git+https://github.com/airspy/host.git
+source: git+https://github.com/airspy/airspyone_host.git

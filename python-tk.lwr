@@ -23,5 +23,8 @@ depends:
 description: A module for writing portable GUI applications with Python using Tk.
 satisfy:
   deb: python-tk
-  rpm: python-tkinter
+  rpm: python-tkinter || python-tk || python2-tkinter || tkinter
   port: py27-tkinter
+  portage: dev-lang/python && dev-lang/tk
+satisfy@python3:
+  deb: python3-tk

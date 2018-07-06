@@ -32,4 +32,5 @@ satisfy:
   rpm: qwt-devel >= 5.2
   port: qwt52 >= 5.2
   pacman: qwt5 >= 5.2
-source: wget+http://prdownloads.sourceforge.net/qwt/qwt-5.2.3.tar.bz2
+  portage: x11-libs/qwt >= 5.2
+source: wget+http://prdownloads.sourceforge.net/qwt/qwt-5.2.0.tar.bz2

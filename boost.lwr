@@ -22,14 +22,13 @@ configure: cd .. && ./bootstrap.sh --prefix=$prefix --libdir=$prefix/lib/
 depends:
 - python
 - libbzip
-install: cd .. && ./bjam --threading=multi --layout=tagged link=shared -j$makewidth install --build-dir=build
-install_static: 'cd .. && ./bjam cxxflags=''-fPIC'' --threading=multi --layout=tagged link=static
-  -j$makewidth install --build-dir=build
-  '
+make: cd .. && ./b2 --threading=multi --layout=tagged link=shared -j$makewidth --build-dir=build
+install: cd .. && ./b2 --threading=multi --layout=tagged link=shared -j$makewidth install --build-dir=build
+install_static: cd .. && ./bjam cxxflags='-fPIC' --threading=multi --layout=tagged link=static -j$makewidth install --build-dir=build
 satisfy:
   deb: libboost-all-dev >= 1.53 || libboost-dev >= 1.53
-  rpm: boost-devel >= 1.53
+  rpm: (boost-devel >= 1.53) || (boost_1_61-devel >= 1.53) || (boost_1_64-devel >= 1.53) || (boost_1_65-devel >= 1.53)
   pacman: boost >= 1.53
   port: boost >= 1.53
   portage: dev-libs/boost >= 1.53
-source: wget+http://downloads.sourceforge.net/project/boost/boost/1.53.0/boost_1_53_0.tar.bz2
+source: wget+http://dl.bintray.com/boostorg/release/1.65.1/source/boost_1_65_1.tar.bz2

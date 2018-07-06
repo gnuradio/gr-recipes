@@ -27,6 +27,6 @@ satisfy:
   rpm: armadillo-devel
   port: armadillo
   portage: sci-libs/armadillo
-source: wget+http://sourceforge.net/projects/arma/files/armadillo-7.200.1.tar.xz
+source: wget+http://sourceforge.net/projects/arma/files/armadillo-8.200.2.tar.xz
 vars:
   config_opt: ' -DINSTALL_LIB_DIR=$prefix/lib '

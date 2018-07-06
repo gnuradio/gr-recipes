@@ -25,3 +25,4 @@ satisfy:
   rpm: qwtplot3d-qt4-devel
   pacman: qwtplot3d
   port: qwtplot3d
+  portage: x11-libs/qwtplot3d

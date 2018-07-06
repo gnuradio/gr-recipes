@@ -23,4 +23,4 @@ satisfy:
   rpm: blas-devel
   pacman: blas
   port: OpenBLAS
-  portage: sci-libs/blas-reference
+  portage: virtual/blas

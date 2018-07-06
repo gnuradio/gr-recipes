@@ -24,6 +24,7 @@ satisfy:
   rpm: expat-devel >= 2.0.1
   pacman: expat >= 2.0.1
   port: expat >= 2.0.1
+  portage: dev-libs/expat >= 2.0.1
 source: wget+http://downloads.sourceforge.net/project/expat/expat/2.0.1/expat-2.0.1.tar.gz
 vars:
   config_opt: ' --libdir=$prefix/lib64 '

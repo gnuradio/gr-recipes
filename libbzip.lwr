@@ -21,9 +21,10 @@ category: baseline
 source: wget+https://launchpad.net/ubuntu/+archive/primary/+files/bzip2_1.0.6.orig.tar.bz2
 satisfy:
   deb: libbz2-dev
-  rpm: bzip2-devel
+  rpm: bzip2-devel || libbz2-devel
   port: libzip
   pacman: libzip
+  portage: app-arch/bzip2
 inherit: autoconf
 configure: ''
 install: make install PREFIX=$prefix

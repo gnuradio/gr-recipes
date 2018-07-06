@@ -24,7 +24,11 @@ depends:
 description: Python based plotting system in a style similar to Matlab.
 satisfy:
   deb: python-matplotlib
-  rpm: python-matplotlib
+  rpm: python-matplotlib || python2-matplotlib
   port: py27-matplotlib
   pacman: python2-matplotlib
   python: matplotlib
+  portage: dev-python/matplotlib
+satisfy@python3:
+  deb: python3-matplotlib
+  rpm: python3-matplotlib
