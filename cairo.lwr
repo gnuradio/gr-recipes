@@ -29,4 +29,5 @@ satisfy:
   rpm: cairo-devel >= 1.8.10
   pacman: cairo >= 1.8.10
   port: cairo >= 1.8.10
+  portage: x11-libs/cairo >= 1.8.10
 source: wget+http://cairographics.org/releases/cairo-1.8.10.tar.gz

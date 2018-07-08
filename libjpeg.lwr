@@ -24,3 +24,4 @@ satisfy:
   rpm: libjpeg-devel || libjpeg-turbo-devel || libjpeg8-devel || libjpeg62-devel
   pacman: libjpeg-turbo
   port: jpeg
+  portage: virtual/jpeg
