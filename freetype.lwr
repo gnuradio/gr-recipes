@@ -24,4 +24,5 @@ satisfy:
   rpm: freetype-devel
   pacman: freetype2
   port: freetype
+  portage: media-libs/freetype
 source: wget+download.savannah.gnu.org/releases/freetype/freetype-2.4.0.tar.bz2

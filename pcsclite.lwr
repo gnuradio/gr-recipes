@@ -31,4 +31,5 @@ satisfy:
   deb: libpcsclite-dev >= 1.8.10
   rpm: pcsc-lite-devel >= 1.8.10
   pacman: pcsclite >= 1.8.10
+  portage: sys-apps/pcsc-lite >= 1.8.10
 source: git+git://anonscm.debian.org/pcsclite/PCSC.git

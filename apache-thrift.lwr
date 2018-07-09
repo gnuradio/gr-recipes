@@ -44,3 +44,4 @@ satisfy:
     pacman: thrift
     pkgconfig: thrift
     rpm: thrift
+    portage: dev-python/thrift
