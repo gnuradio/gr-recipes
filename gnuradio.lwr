@@ -23,6 +23,7 @@ depends:
 - cppunit
 - swig
 - gsl
+- gmp
 - uhd
 - alsa
 - cheetah
