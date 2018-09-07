@@ -26,4 +26,4 @@ satisfy:
   rpm: libtalloc-devel >= 2.0.1
   pacman: talloc >= 2.0.1
   portage: sys-libs/talloc >= 2.0.1
-source: git+git://anonscm.debian.org/pkg-samba/talloc.git
+source: git+https://salsa.debian.org/samba-team/talloc.git

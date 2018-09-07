@@ -32,4 +32,4 @@ satisfy:
   rpm: pcsc-lite-devel >= 1.8.10
   pacman: pcsclite >= 1.8.10
   portage: sys-apps/pcsc-lite >= 1.8.10
-source: git+git://anonscm.debian.org/pcsclite/PCSC.git
+source: git+https://salsa.debian.org/debian/pcsc-lite.git
