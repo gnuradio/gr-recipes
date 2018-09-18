@@ -23,7 +23,7 @@ depends:
 inherit: distutils
 satisfy:
   deb: python-cheetah >= 2.0
-  rpm: python-cheetah >= 2.0
+  rpm: python-cheetah >= 2.0 || python2-cheetah >= 2.0
   pacman: python2-cheetah >= 2.0
   cmd: cheetah --version >= 2.0
   port: py27-cheetah >= 2.0
