@@ -23,12 +23,12 @@ depends:
 - gcc
 inherit: autoconf
 satisfy:
-  deb: swig2.0 || swig3.0
-  rpm: swig >= 2.0
-  pacman: swig >= 2.0
-  port: swig-python >= 2.0
-  cmd: swig -version >= 2.0
-  portage: dev-lang/swig >= 2.0
-source: wget+http://prdownloads.sourceforge.net/swig/swig-2.0.4.tar.gz
+  deb: swig3.0 || swig
+  rpm: swig >= 2.8
+  pacman: swig >= 2.8
+  port: swig-python >= 2.8
+  cmd: swig -version >= 2.8
+  portage: dev-lang/swig >= 2.8
+source: wget+https://downloads.sourceforge.net/project/swig/swig/swig-3.0.12/swig-3.0.12.tar.gz
 vars:
   config_opt: --without-pcre
