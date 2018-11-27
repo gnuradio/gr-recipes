@@ -18,7 +18,8 @@
 #
 
 category: common
-depends: gnuradio
+depends: 
+- gnuradio
 description: Symbol to Bit Mapping and Demapping Blocks for GNU Radio
 gitbranch: master
 inherit: cmake
