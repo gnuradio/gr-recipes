@@ -26,4 +26,4 @@ depends:
 description: Open source implementation of 3GPP LTE specs
 gitbranch: master
 inherit: cmake
-source: git+git://git.code.sf.net/p/openlte/code
+source: git+https://git.code.sf.net/p/openlte/code

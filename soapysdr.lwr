@@ -24,6 +24,6 @@ description: Vendor and platform neutral SDR support library
 gitbranch: master
 inherit: cmake
 # Let's always build this from source, not binaries
-source: git+git://github.com/pothosware/SoapySDR.git
+source: git+https://github.com/pothosware/SoapySDR.git
 vars:
   config_opt: ' -DENABLE_PYTHON3=OFF '
