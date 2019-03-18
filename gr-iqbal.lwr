@@ -25,4 +25,4 @@ description: Gnuradio I/Q balancing
 gitbranch: master
 inherit: cmake
 # Let's always build this from source, not binaries
-source: git+git://git.osmocom.org/gr-iqbal
+source: git+https://git.osmocom.org/gr-iqbal

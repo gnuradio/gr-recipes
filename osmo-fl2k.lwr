@@ -23,4 +23,4 @@ depends:
 description: Turns FL2000-based USB 3.0 to VGA adapters into low cost DACs
 gitbranch: master
 inherit: cmake
-source: git+git://git.osmocom.org/osmo-fl2k.git
+source: git+https://git.osmocom.org/osmo-fl2k

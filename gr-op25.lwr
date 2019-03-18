@@ -27,4 +27,4 @@ depends:
 description: Implementation of the APCO Project 25 digital radio standard
 gitbranch: master
 inherit: cmake
-source: git+git://git.osmocom.org/op25
+source: git+https://git.osmocom.org/op25
