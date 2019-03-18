@@ -25,4 +25,4 @@ description: Soapy SDR module for RTL-SDR
 gitbranch: master
 inherit: cmake
 # Let's always build this from source, not binaries
-source: git+git://github.com/pothosware/SoapyRTLSDR.git
+source: git+https://github.com/pothosware/SoapyRTLSDR.git
