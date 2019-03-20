@@ -18,7 +18,8 @@
 #
 
 category: common
-depends: gnuradio
+depends:
+  - gnuradio
 source: git+https://github.com/manuts/gr-ldpc.git
 gitbranch: master
 inherit: cmake
