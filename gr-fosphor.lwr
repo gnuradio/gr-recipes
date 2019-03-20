@@ -26,4 +26,4 @@ gitbranch: master
 inherit: cmake
 satisfy:
   port: gr-fosphor
-source: git+git://git.osmocom.org/gr-fosphor
+source: git+https://git.osmocom.org/gr-fosphor
