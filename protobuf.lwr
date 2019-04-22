@@ -19,9 +19,14 @@
 
 category: baseline
 inherit: autoconf
+description: A portable mechanism for serialization of structured data
 satisfy:
-  deb: libprotobuf-dev >= 2.6.1
-  rpm: protobuf-devel >= 2.6.1
-  port: protobuf-cpp >= 2.6.1 && py27-protobuf >= 2.6.1
-  pacman: protobuf >= 2.6.1
-source: wget+https://github.com/google/protobuf/releases/download/v2.6.1/protobuf-2.6.1.tar.gz
+  deb: (libprotobuf-dev >= 3.0.0) && (protobuf-compiler >= 3.0.0)
+  rpm: protobuf-devel >= 3.0.0
+  port: (protobuf3-cpp >= 3.0.0) && (py27-protobuf3) >= 3.0.0
+  pacman: protobuf >= 3.0.0
+depends:
+- curl
+- libtool
+- make
+source: wget+https://github.com/protocolbuffers/protobuf/releases/download/v3.7.1/protobuf-cpp-3.7.1.tar.gz

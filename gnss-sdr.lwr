@@ -26,6 +26,7 @@ depends:
 - mako
 - six
 - matio
+- protobuf
 description: An open source GNSS software defined receiver
 gitbranch: next
 inherit: cmake
