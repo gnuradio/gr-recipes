@@ -28,4 +28,4 @@ inherit: cmake
 # Let's always build this from source, not binaries
 source: git+https://github.com/myriadrf/LimeSuite.git
 vars:
-  config_opt: " -DENABLE_GUI=OFF -DENABLE_SOAPY_LMS7=ON -DENABLE_STREAM=ON "
+  config_opt: " -DENABLE_GUI=ON -DENABLE_UTILITIES=ON -DENABLE_SOAPY_LMS7=ON -DENABLE_STREAM=ON "
