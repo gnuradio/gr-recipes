@@ -21,6 +21,8 @@ category: baseline
 inherit: autoconf
 depends:
 - python
+satisfy@python3:
+  deb: python3-pyyaml
 description: Python wrapper for YAML parser
 source: http://pyyaml.org/download/pyyaml/PyYAML-3.12.tar.gz
 

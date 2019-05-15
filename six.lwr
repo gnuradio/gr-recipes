@@ -28,3 +28,6 @@ satisfy:
   pacman: python2-six >= 1.0
   port: py27-six >= 1.0
   python: six >= 1.0
+satisfy@python3:
+  deb: python3-six >= 1.0
+  rpm: python3-six >= 1.0

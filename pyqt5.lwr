@@ -31,4 +31,6 @@ satisfy:
   pacman: python-pyqt5
   port: py27-qt5 >= 5.7.1
   portage: dev-python/PyQt5 >= 5.7.1
+satisfy@python3:
+  rpm: python3-qt5 && python3-qt5-devel
 source: wget+https://sourceforge.net/projects/pyqt/files/PyQt5/PyQt-5.6/PyQt5_gpl-5.6.tar.gz

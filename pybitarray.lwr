@@ -25,3 +25,5 @@ satisfy:
   rpm: python2-bitarray
   port: pybitarray
   pip: bitarray
+satisfy@python3:
+  rpm: python3-bitarray

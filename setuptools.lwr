@@ -26,4 +26,7 @@ satisfy:
   pacman: python2-setuptools >= 0.6
   port: py27-setuptools >= 0.6
   pip: setuptools >= 0.6
+satisfy@python3:
+  deb: python3-setuptools >= 0.6
+  rpm: python3-setuptools >= 0.6
 source: wget+https://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz

@@ -28,3 +28,4 @@ satisfy:
   pip: pyzmq
 satisfy@python3:
   deb: python3-zmq
+  rpm: python3-zmq

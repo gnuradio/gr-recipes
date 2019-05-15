@@ -30,4 +30,7 @@ satisfy:
   port: py27-numpy >= 1.5
   portage: dev-python/numpy >= 1.5
   python: numpy >= 1.5
+satisfy@python3:
+  deb: python3-numpy >= 1.5
+  rpm: python3-numpy >= 1.5
 source: wget+http://prdownloads.sourceforge.net/numpy/numpy-1.6.2.tar.gz

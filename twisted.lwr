@@ -29,3 +29,6 @@ satisfy:
   portage: dev-python/twisted-core
   python: twisted
   pip: Twisted
+satisfy@python3:
+  deb: python3-twisted
+  rpm: python3-twisted

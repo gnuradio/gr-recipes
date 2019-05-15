@@ -24,4 +24,6 @@ satisfy:
   deb: python-networkx
   rpm: python-networkx || python2-networkx
   pacman: python2-networkx
-  
+satisfy@python3:
+  deb: python3-networkx
+  rpm: python3-networkx
