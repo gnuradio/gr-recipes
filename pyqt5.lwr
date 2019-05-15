@@ -27,7 +27,7 @@ inherit: autoconf
 install_like: qt5
 satisfy:
   deb: ( pyqt5-dev >= 5.3.2 ) && ( pyqt5-dev-tools >= 5.3.2 )
-  rpm: python-qt5 && python-qt5-devel
+  rpm: (python-qt5 || python2-qt5) && python-qt5-devel
   pacman: python-pyqt5
   port: py27-qt5 >= 5.7.1
   portage: dev-python/PyQt5 >= 5.7.1
