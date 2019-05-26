@@ -22,10 +22,10 @@ depends:
 - libxml
 - libusb
 description: Library for interfacing with IIO devices
-gitrev: tags/v0.7
+gitrev: tags/v0.18
 inherit: cmake
 satisfy:
-  deb: libiio0 >= 0.7 && libiio-dev >= 0.7
+  deb: libiio0 >= 0.9 && libiio-dev >= 0.9
 source: git+https://github.com/analogdevicesinc/libiio
 vars:
-  config_opt: ' -DWITH_IIOD:BOOL=OFF '
+  config_opt: ' -DWITH_IIOD:BOOL=OFF -DINSTALL_UDEV_RULE:BOOL=OFF '
