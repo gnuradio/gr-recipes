@@ -28,4 +28,4 @@ satisfy:
   portage: dev-lang/python && dev-lang/tk
 satisfy@python3:
   deb: python3-tk
-  deb: python3-tkinter
+  rpm: python3-tkinter
