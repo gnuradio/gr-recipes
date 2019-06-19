@@ -45,3 +45,5 @@ satisfy:
     pkgconfig: thrift
     rpm: thrift
     portage: dev-python/thrift
+satisfy@python3:
+    rpm: python3-thrift
