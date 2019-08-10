@@ -18,9 +18,13 @@
 #
 
 category: baseline
+depends:
+- python
+description: A module for writing portable GUI applications with Python using Tk
 satisfy:
-  deb: libqt5opengl5-dev && libqt5svg5-dev && qt5-default
-  rpm: (qt5-qtbase-devel && qt5-qtsvg-devel) || (devel_qt5 && libqt5-qtsvg-devel)
-  pacman: qt5-base
-  port: qt5 && qt5-qtbase
-  portage: dev-qt/qtgui
+  deb: python-click-plugins
+  rpm: python-click-plugins || python2-click-plugins
+  port: py27-click-plugins
+satisfy@python3:
+  deb: python3-click-plugins
+  rpm: python3-click-plugins

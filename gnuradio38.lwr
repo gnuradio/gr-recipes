@@ -25,15 +25,18 @@ depends:
 - gmp
 - uhd
 - alsa
+- qt5
+- qwt6
 - numpy
 - lxml
 - pygtk
 - pycairo
 - pyqt5
-- qwt5
 - liblog4cpp
 - zeromq
 - python-zmq
+- python-click-plugins
+- python-pyqtgraph
 - mako
 description: Free and open source toolkit for software defined radio
 category: common
@@ -45,7 +48,7 @@ satisfy:
   portage: net-wireless/gnuradio
   pkgconfig: gnuradio-runtime
 source: git+https://github.com/gnuradio/gnuradio.git
-gitbranch: master
+gitbranch: maint-3.8
 gitargs: --recursive
 vars: # We explicitly enable some subcomponents to make sure the build fails if they're not working:
   config_opt: " -DENABLE_DOXYGEN=$builddocs -DENABLE_GR_AUDIO=ON -DENABLE_GR_BLOCKS=ON -DENABLE_GR_DIGITAL=ON -DENABLE_GR_FEC=ON -DENABLE_GR_FFT=ON -DENABLE_GR_FILTER=ON -DENABLE_GR_QTGUI=ON -DENABLE_GR_UHD=ON -DENABLE_PYTHON=ON -DENABLE_VOLK=ON -DENABLE_GRC=ON "
