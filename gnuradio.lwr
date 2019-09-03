@@ -37,7 +37,12 @@ depends:
 - python-zmq
 - python-click-plugins
 - python-pyqtgraph
+- pyyaml
+- pygobject
+- gobject-introspection
+- gtk3
 - mako
+- doxygen
 description: Free and open source toolkit for software defined radio
 category: common
 satisfy:
