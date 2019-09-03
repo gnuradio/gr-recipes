@@ -1,3 +1,4 @@
+
 #
 # This file is part of PyBOMBS
 #
@@ -18,22 +19,13 @@
 #
 
 category: baseline
-depends:
-- python
-- swig
-#- gobject-introspection
-- gtk2
 inherit: autoconf
-install_like: gobject-introspection
+description: GTK+ graphical user interface library -- gir bindings
 satisfy:
-  deb: python-gobject-dev >= 2.27
-  rpm: (pygobject2-devel >= 2.27) || (python-gobject2-devel >= 2.27)
-  pacman: python2-gobject2 >= 2.27
-  port: py27-gobject >= 2.27
-  pip: PyGObject >= 2.27
-satisfy@python3:
-  deb: python3-gi && python3-gi-cairo
-  rpm: python3-gobject
-source: wget+http://ftp.gnome.org/pub/GNOME/sources/pygobject/2.28/pygobject-2.28.6.tar.bz2
-vars:
-  config_opt: ' --disable-introspection '
+  deb: gir1.2-gtk-3.0
+  rpm: gtk3
+  pacman: gtk3
+  pkgconfig: gtk+-3.0
+  port: gtk3
+  portage: x11-libs/gtk+
+source: wget+http://ftp.gnome.org/pub/gnome/sources/gtk+/3.24/gtk+-3.24.11.tar.xz
