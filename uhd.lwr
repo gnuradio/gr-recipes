@@ -32,7 +32,7 @@ satisfy:
   port: uhd
   portage: net-wireless/uhd
 source: git+https://github.com/EttusResearch/uhd.git
-gitbranch: master
+gitbranch: UHD-3.9.LTS
 #gitbranch: rfnoc-devel
 inherit: cmake
 configuredir: host/build
