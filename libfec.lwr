@@ -21,7 +21,5 @@ category: common
 depends:
 description: Phil Karn's libfec
 gitbranch: master
-inherit: autoconf
-source: git+https://github.com/daniestevez/libfec
-
-
+inherit: cmake
+source: git+https://github.com/quiet/libfec
