@@ -28,8 +28,8 @@ depends:
 inherit: autoconf
 make: "make    \n"
 satisfy:
-  deb: libqwt-dev >= 6.1
-  rpm: qwt-devel >= 6.1
+  deb: libqwt-qt5-dev && libqwt-dev >= 6.1
+  rpm: qwt-qt5-devel && qwt-devel >= 6.1
   port: qwt61
   pacman: qwt >= 6.1
   portage: x11-libs/qwt >= 6.1

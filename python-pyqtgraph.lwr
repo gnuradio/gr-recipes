@@ -18,9 +18,15 @@
 #
 
 category: baseline
+depends:
+- python
+- numpy
+description: Scientific Graphics and GUI Library for Python
 satisfy:
-  deb: libqt5opengl5-dev && libqt5svg5-dev && qt5-default
-  rpm: (qt5-qtbase-devel && qt5-qtsvg-devel) || (devel_qt5 && libqt5-qtsvg-devel)
-  pacman: qt5-base
-  port: qt5 && qt5-qtbase
-  portage: dev-qt/qtgui
+  deb: python-pyqtgraph
+  rpm: python-pyqtgraph || python2-pyqtgraph
+  port: py27-pyqtgraph
+  python: pyqtgraph
+satisfy@python3:
+  deb: python3-pyqtgraph
+  rpm: python3-pyqtgraph
