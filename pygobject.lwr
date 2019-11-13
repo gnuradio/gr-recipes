@@ -26,8 +26,8 @@ depends:
 inherit: autoconf
 install_like: gobject-introspection
 satisfy:
-  deb: python-gobject-dev >= 2.27
-  rpm: (pygobject2-devel >= 2.27) || (python-gobject2-devel >= 2.27)
+  deb: python-gi-cairo && ((python-gobject-dev >= 2.27) || (python-gobject-2-dev >= 2.27))
+  rpm: python2-gobject && ((pygobject2-devel >= 2.27) || (python-gobject2-devel >= 2.27))
   pacman: python2-gobject2 >= 2.27
   port: py27-gobject >= 2.27
   pip: PyGObject >= 2.27
