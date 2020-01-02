@@ -21,8 +21,8 @@ category: baseline
 inherit: autoconf
 satisfy:
   deb: libusb-1.0-0-dev >= 1.0.20
-  rpm: (libusbx-devel >= 1.0.20) || (libusb-1_0-devel >= 1.0.20)
   pacman: libusb >= 1.0.20
+  rpm: (libusb-devel >= 1.0.20) || (libusb-1_0-devel >= 1.0.20) || (libusbx-devel >= 1.0.20)
   pkgconfig: libusb-1.0
   port: libusb >= 1.0.20
   portage: dev-libs/libusb >= 1.0.20
