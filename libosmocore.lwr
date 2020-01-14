@@ -33,3 +33,5 @@ description: A library with generic ulitity functions developed by Osmocom proje
 gitbranch: master
 inherit: autoconf
 source: git+https://git.osmocom.org/libosmocore
+vars:
+  config_opt: ' --disable-libsctp '
