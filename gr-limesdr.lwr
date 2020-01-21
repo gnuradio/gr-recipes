@@ -22,6 +22,6 @@ depends:
 - gnuradio
 - limesuite
 description: GNU Radio source and sink blocks for LimeSDR hardware
-gitbranch: master
+gitbranch: gr-3.8
 inherit: cmake
 source: git+https://github.com/myriadrf/gr-limesdr
