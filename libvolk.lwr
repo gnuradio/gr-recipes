@@ -22,7 +22,7 @@ depends:
 - mako
 description: Vector Optimized Library of Kernels
 satisfy:
-  deb: libvolk-dev
+  deb: libvolk2-dev
 gitbranch: master
 inherit: cmake
 source: git+https://github.com/gnuradio/volk.git
