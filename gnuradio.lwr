@@ -31,6 +31,7 @@ depends:
 - lxml
 - pycairo
 - pyqt5
+- libvolk
 - liblog4cpp
 - zeromq
 - python-zmq
