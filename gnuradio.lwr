@@ -29,7 +29,6 @@ depends:
 - qwt6
 - numpy
 - lxml
-- pygtk
 - pycairo
 - pyqt5
 - liblog4cpp
