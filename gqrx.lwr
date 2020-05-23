@@ -22,7 +22,6 @@ depends:
 - gnuradio
 - gr-osmosdr
 - pulseaudio
-- qt4
 - qt5
 description: A SDR receiver using GNU Radio SDR framework and Qt graphical toolkit
 gitbranch: master
