@@ -30,5 +30,9 @@ config:
       optional: True
     gqrx:
       forcebuild: True
-
-
+    gr-display:
+      gitbranch: v3.8
+    gr-filerepeater:
+      gitbranch: maint-3.8
+    gr-lfast:
+      gitbranch: maint-3.8
