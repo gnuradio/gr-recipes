@@ -20,9 +20,9 @@
 category: common
 depends:
 - gnuradio
-- libfec
+- python-requests
 - pyconstruct
-description: GNU Radio decoders for several Amateur satellites
+description: A collection of decoders for Amateur satellites
 gitbranch: master
 inherit: cmake
 source: git+https://github.com/daniestevez/gr-satellites
