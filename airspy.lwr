@@ -20,6 +20,7 @@
 category: hardware
 depends:
 - libusb
+- pkg-config
 description: Host side software for AirSpy dongles
 gitbranch: master
 inherit: cmake
