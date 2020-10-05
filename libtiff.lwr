@@ -18,7 +18,6 @@
 #
 
 category: baseline
-depends: null
 satisfy:
   deb: libtiff5-dev || libtiff4-dev
   rpm: libtiff-devel
