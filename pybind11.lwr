@@ -1,0 +1,11 @@
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+
+category: baseline
+inherit: cmake
+satisfy:
+  deb: pybind11-dev
+  rpm: pybind11-devel
+  pip: pybind11
+source: git+https://github.com/pybind/pybind11.git
