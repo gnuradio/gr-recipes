@@ -18,7 +18,6 @@
 #
 
 category: baseline
-depends: null
 gitbranch: master
 inherit: cmake
 source: git+https://github.com/szechyjs/mbelib.git

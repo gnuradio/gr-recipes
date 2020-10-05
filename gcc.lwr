@@ -18,7 +18,6 @@
 #
 
 category: baseline
-depends: null
 satisfy:
   deb: gcc && g++
   rpm: gcc-c++
