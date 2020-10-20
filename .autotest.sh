@@ -45,8 +45,8 @@ function run_test () {
 			gh issue list --limit 999 | grep "autotest:$issuehash"
 		else
 			issuetitle="Error installing $issuetopic [autotest:$issuehash]"
-			echo ".autotest.sh found an issue while attempting to install **[$rname](../../blob/master/$recipefile)** (last changed in commit [#${rversion:0:7}](https://github.com/gnuradio/gr-recipes/commit/$rversion))." >> .autotest_${rname}.issue
-			echo "" > .autotest_${rname}.issue
+			echo ".autotest.sh found an issue while attempting to install $rname from **[$recipefile @ commit ${rversion:0:7}](https://github.com/gnuradio/gr-recipes/blob/$rversion/$recipefile)** ([commit diff for ${rversion:0:7}](https://github.com/gnuradio/gr-recipes/commit/$rversion))." >> .autotest_${rname}.issue
+			echo "" >> .autotest_${rname}.issue
 			echo "## Setup used:" >> .autotest_${rname}.issue
 			echo "" >> .autotest_${rname}.issue
 			echo " - Docker image: $dimage:$dtag ([Explore](https://hub.docker.com/layers/$dimage/$dtag/images/sha256-$imgversion?context=explore) | [Tags](https://hub.docker.com/r/$dimage/tags))" >> .autotest_${rname}.issue
