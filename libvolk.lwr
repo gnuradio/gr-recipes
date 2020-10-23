@@ -24,5 +24,6 @@ description: Vector Optimized Library of Kernels
 satisfy:
   deb: libvolk2-dev
 gitbranch: master
+gitargs: --recursive
 inherit: cmake
 source: git+https://github.com/gnuradio/volk.git
