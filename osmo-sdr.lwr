@@ -30,5 +30,4 @@ satisfy:
   deb: osmo-sdr && libosmosdr-dev
   pacman: gnuradio-osmosdr
 #source: git+https://git.osmocom.org/osmo-sdr
-#source: git+https://github.com/osmocom/osmo-sdr
-source: git+https://github.com/curtcorum/osmo-sdr
+source: git+https://github.com/osmocom/osmo-sdr
