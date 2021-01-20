@@ -19,6 +19,7 @@
 
 category: common
 depends:
+- cheetah
 - mako
 description: Vector Optimized Library of Kernels
 satisfy:

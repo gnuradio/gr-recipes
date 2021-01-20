@@ -19,9 +19,7 @@
 
 inherit: prefix
 depends:
-        - mako
-        - cheetah
-        - gnuradio
+        - gnuradio37
 config:
   packages:
     apache-thrift:
