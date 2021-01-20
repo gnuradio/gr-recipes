@@ -19,7 +19,7 @@
 
 inherit: prefix
 depends:
-        - gnuradio37
+        - gnuradio
 config:
   packages:
     apache-thrift:
