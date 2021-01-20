@@ -22,7 +22,7 @@ depends:
 - gnuradio
 - libosmo-dsp
 description: Gnuradio I/Q balancing
-gitbranch: master
+#gitbranch: master
 inherit: cmake
 # Let's always build this from source, not binaries
 #source: git+https://git.osmocom.org/gr-iqbal
