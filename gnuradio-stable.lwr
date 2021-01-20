@@ -19,6 +19,7 @@
 
 inherit: prefix
 depends:
+	- cheetah
         - gnuradio
 config:
   packages:
@@ -34,4 +35,5 @@ config:
       gitbranch: UHD-3.15.LTS
     gqrx:
       forcebuild: True
-
+    libvolk:
+      gitbranch: maint
