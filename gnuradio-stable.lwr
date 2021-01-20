@@ -36,3 +36,5 @@ config:
       forcebuild: True
     libvolk:
       gitbranch: maint
+    gr-iqbal:
+      gitbranch: gr3.7
