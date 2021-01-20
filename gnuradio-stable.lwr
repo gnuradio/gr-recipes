@@ -19,7 +19,8 @@
 
 inherit: prefix
 depends:
-	- cheetah
+        - mako
+        - cheetah
         - gnuradio
 config:
   packages:
