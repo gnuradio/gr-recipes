@@ -18,7 +18,6 @@
 #
 
 category: baseline
-inherit: autoconf
 depends:
 - python
 satisfy:
