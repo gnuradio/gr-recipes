@@ -34,4 +34,7 @@ config:
       gitbranch: UHD-3.15.LTS
     gqrx:
       forcebuild: True
-
+    libvolk:
+      gitbranch: maint
+    gr-iqbal:
+      gitbranch: gr3.7

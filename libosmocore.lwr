@@ -32,6 +32,7 @@ depends:
 description: A library with generic ulitity functions developed by Osmocom project
 gitbranch: master
 inherit: autoconf
-source: git+https://git.osmocom.org/libosmocore
+#source: git+https://git.osmocom.org/libosmocore
+source: git+https://github.com/osmocom/libosmocore
 vars:
   config_opt: ' --disable-libsctp '
