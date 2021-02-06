@@ -34,4 +34,9 @@ config:
       gitbranch: UHD-3.15.LTS
     gqrx:
       forcebuild: True
-
+    gr-iqbal:
+      gitbranch: gr3.7
+    gr-osmosdr:
+      gitbranch: gr3.7
+    gr-fosphor:
+      gitbranch: gr3.7

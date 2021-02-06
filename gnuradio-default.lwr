@@ -32,7 +32,13 @@ config:
       forcebuild: True
     gr-display:
       gitbranch: v3.8
+    gr-fosphor:
+      gitbranch: gr3.8
     gr-filerepeater:
       gitbranch: maint-3.8
+    gr-iqbal:
+      gitbranch: gr3.8
     gr-lfast:
       gitbranch: maint-3.8
+    gr-osmosdr:
+      gitbranch: gr3.8
