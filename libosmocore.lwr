@@ -29,6 +29,7 @@ depends:
 - pcsclite
 - libtalloc-dev
 - gnutls
+- libmnl
 description: A library with generic ulitity functions developed by Osmocom project
 gitbranch: master
 inherit: autoconf
