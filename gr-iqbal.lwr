@@ -26,3 +26,4 @@ gitbranch: master
 inherit: cmake
 # Let's always build this from source, not binaries
 source: git+https://git.osmocom.org/gr-iqbal
+mirror: git+https://github.com/osmocom/gr-iqbal
