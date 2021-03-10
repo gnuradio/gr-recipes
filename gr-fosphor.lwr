@@ -27,3 +27,4 @@ inherit: cmake
 satisfy:
   port: gr-fosphor
 source: git+https://git.osmocom.org/gr-fosphor
+mirror: git+https://github.com/osmocom/gr-fosphor
