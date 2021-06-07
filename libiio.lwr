@@ -22,7 +22,7 @@ depends:
 - libxml
 - libusb
 description: Library for interfacing with IIO devices
-gitrev: tags/v0.18
+gitrev: tags/v0.21
 inherit: cmake
 satisfy:
   deb: libiio0 >= 0.9 && libiio-dev >= 0.9
