@@ -17,16 +17,7 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
-depends:
-- gnuradio
-- glfw3
-- freetype
-- opencl
-description: RTSA-like spectrum visualization using OpenCL and OpenGL
-gitbranch: master
-inherit: cmake
+category: baseline
 satisfy:
-  port: gr-fosphor
-source: git+https://git.osmocom.org/gr-fosphor
-mirror: git+https://github.com/osmocom/gr-fosphor
+  deb: opencl-headers && ocl-icd-opencl-dev
+  rpm: opencl-headers && ocl-icd-devel
