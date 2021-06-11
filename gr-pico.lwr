@@ -1,5 +1,5 @@
 #
-#This file is file is part of PyBOMBS
+# This file is part of PyBOMBS
 #
 # PyBOMBS is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -24,4 +24,3 @@ description: OOT modules for DRS Picoflexor and Picoflexor Transceiver
 gitbranch: master
 inherit: cmake
 source: https://github.com/drs-ss/gr-pico.git
-
