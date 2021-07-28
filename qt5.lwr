@@ -19,7 +19,7 @@
 
 category: baseline
 satisfy:
-  deb: libqt5opengl5-dev && libqt5svg5-dev && qt5-default
+  deb: libqt5opengl5-dev && libqt5svg5-dev && (qt5-default || qtbase5-dev)
   rpm: (qt5-qtbase-devel && qt5-qtsvg-devel) || (devel_qt5 && libqt5-qtsvg-devel)
   pacman: qt5-base
   port: qt5 && qt5-qtbase
