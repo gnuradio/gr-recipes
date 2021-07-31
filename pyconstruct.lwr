@@ -22,7 +22,7 @@ depends:
 - python
 satisfy:
   deb: python-construct >= 2.9
-  rpm: python-construct >= 2.9
+  rpm: (python-construct >= 2.9 || python3-construct >= 2.9)
   python: construct.version >= 2.9
 source: https://github.com/construct/construct/archive/v2.9.45.tar.gz
 
