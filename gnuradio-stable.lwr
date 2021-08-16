@@ -19,18 +19,14 @@
 
 inherit: prefix
 depends:
-        - gnuradio
+        - gnuradio39
 config:
   packages:
     apache-thrift:
       optional: True
-    wxpython:
-      optional: True
     doxygen:
       optional: True
-    gnuradio:
-      gitbranch: maint-3.7
-    uhd:
-      gitbranch: UHD-3.15.LTS
     gqrx:
       forcebuild: True
+    uhd:
+      gitbranch: UHD-4.0
