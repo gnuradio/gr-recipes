@@ -17,18 +17,41 @@
 # Boston, MA 02110-1301, USA.
 #
 
-inherit: prefix
 depends:
-        - gnuradio
-config:
-  packages:
-    apache-thrift:
-      optional: True
-    wxpython:
-      optional: True
-    doxygen:
-      optional: True
-    gnuradio:
-      gitbranch: maint-3.9
-    gqrx:
-      forcebuild: True
+- boost
+- fftw
+- gsl
+- gmp
+- soapysdr
+- uhd
+- alsa
+- qt5
+- qwt6
+- numpy
+- lxml
+- pycairo
+- pyqt5
+- libvolk
+- liblog4cpp
+- zeromq
+- python-zmq
+- python-click-plugins
+- python-pyqtgraph
+- pyyaml
+- pygobject
+- gobject-introspection
+- gtk3
+- mako
+- pybind11
+- doxygen
+description: Free and open source toolkit for software defined radio
+category: common
+source: git+https://github.com/gnuradio/gnuradio.git
+gitbranch: maint-3.9
+vars: # We explicitly enable some subcomponents to make sure the build fails if they're not working:
+  config_opt: " -DENABLE_DOXYGEN=$builddocs -DENABLE_GR_AUDIO=ON -DENABLE_GR_BLOCKS=ON -DENABLE_GR_CHANNELS=ON -DENABLE_GR_DIGITAL=ON -DENABLE_GR_FEC=ON -DENABLE_GR_FFT=ON -DENABLE_GR_FILTER=ON -DENABLE_GR_QTGUI=ON -DENABLE_GR_UHD=ON -DENABLE_GR_SOAPY=ON -DENABLE_PYTHON=ON -DENABLE_GRC=ON "
+inherit: cmake
+configure_static: cmake .. -DCMAKE_BUILD_TYPE=$cmakebuildtype -DCMAKE_INSTALL_PREFIX=$prefix -DENABLE_STATIC_LIBS=True $config_opt
+install: |
+    make install
+    make install
