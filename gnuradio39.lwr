@@ -19,6 +19,7 @@
 
 inherit: prefix
 depends:
+        - pybind11
         - gnuradio
 config:
   packages:
