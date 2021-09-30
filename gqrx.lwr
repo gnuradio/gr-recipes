@@ -32,4 +32,4 @@ satisfy:
   deb: gqrx-sdr
   port: gqrx
   pacman: gqrx
-source: git+https://github.com/csete/gqrx.git
+source: git+https://github.com/gqrx-sdr/gqrx.git
