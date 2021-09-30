@@ -31,6 +31,6 @@ satisfy:
   port: hackrf
   portage: net-wireless/hackrf-tools
   pacman: hackrf
-source: git+https://github.com/mossmann/hackrf.git
+source: git+https://github.com/greatscottgadgets/hackrf.git
 vars:
   config_opt: ' -DINSTALL_UDEV_RULES=OFF'
