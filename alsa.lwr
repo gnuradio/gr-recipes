@@ -26,5 +26,5 @@ satisfy:
   port: portaudio
   portage: media-libs/portaudio
   pkgconfig: alsa
-source: git+http://git.alsa-project.org/alsa-lib.git
+source: git+git://git.alsa-project.org/alsa-lib.git
 gitrev: tags/v1.2.3.2
