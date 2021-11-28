@@ -32,3 +32,4 @@ satisfy:
 satisfy@python3:
   deb: python3-mako >= 0.4.2
   rpm: python3-mako >= 0.4.2
+  pacman: python-mako

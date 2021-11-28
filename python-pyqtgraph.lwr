@@ -25,7 +25,6 @@ description: Scientific Graphics and GUI Library for Python
 satisfy:
   deb: python-pyqtgraph
   rpm: python-pyqtgraph || python2-pyqtgraph
-  pacman: python-pyqtgraph
   port: py27-pyqtgraph
   python: pyqtgraph
 satisfy@python3:
