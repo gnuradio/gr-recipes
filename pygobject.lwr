@@ -34,6 +34,7 @@ satisfy:
 satisfy@python3:
   deb: python3-gi && python3-gi-cairo
   rpm: python3-gobject
+  pacman: python-gobject
 source: wget+http://ftp.gnome.org/pub/GNOME/sources/pygobject/2.28/pygobject-2.28.6.tar.bz2
 vars:
   config_opt: ' --disable-introspection '
