@@ -24,7 +24,9 @@ description: A module for writing portable GUI applications with Python using Tk
 satisfy:
   deb: python-click-plugins
   rpm: python-click-plugins || python2-click-plugins
+  pacman: python-click-plugins
   port: py27-click-plugins
 satisfy@python3:
   deb: python3-click-plugins
   rpm: python3-click-plugins
+  pacman: python-click-plugins
