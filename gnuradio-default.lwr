@@ -44,3 +44,5 @@ config:
       gitbranch: maint-3.8
     gr-osmosdr:
       gitbranch: gr3.8
+    gr-iridium:
+      gitbranch: maint-3.8
