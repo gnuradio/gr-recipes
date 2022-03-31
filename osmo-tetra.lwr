@@ -40,7 +40,7 @@ make: 'cd ../src
   make
 
   '
-source: git+https://git.osmocom.org/osmo-tetra
+source: git+https://gitea.osmocom.org/tetra/osmo-tetra.git
 uninstall: 'rm $prefix/lib/libosmo-tetra-mac.a
 
   rm $prefix/lib/libosmo-tetra-phy.a
