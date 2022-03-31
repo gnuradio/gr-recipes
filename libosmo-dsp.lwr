@@ -29,5 +29,5 @@ gitbranch: master
 inherit: autoconf
 satisfy:
   port: libosmo-dsp
-source: git+https://git.osmocom.org/libosmo-dsp
+source: git+https://gitea.osmocom.org/sdr/libosmo-dsp.git
 installdir: .
