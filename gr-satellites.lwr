@@ -23,7 +23,6 @@ depends:
 - python-requests
 - pyconstruct
 description: A collection of decoders for Amateur satellites
-gitbranch: master
+gitbranch: main
 inherit: cmake
 source: git+https://github.com/daniestevez/gr-satellites
-
