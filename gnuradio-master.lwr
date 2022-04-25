@@ -24,11 +24,11 @@ config:
   packages:
     apache-thrift:
       optional: True
-    wxpython:
-      optional: True
     doxygen:
       optional: True
     gnuradio:
-      gitbranch: master
+      gitbranch: main
     gqrx:
       forcebuild: True
+    liblog4cpp:
+      optional: True

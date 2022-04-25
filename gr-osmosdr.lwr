@@ -29,7 +29,6 @@ depends:
 - airspy
 - airspyhf
 - soapysdr
-- gr-fcdproplus
 description: Interface API independent of the underlying radio hardware
 gitbranch: master
 inherit: cmake
