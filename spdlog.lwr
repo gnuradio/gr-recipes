@@ -17,18 +17,12 @@
 # Boston, MA 02110-1301, USA.
 #
 
-inherit: prefix
-depends:
-        - gnuradio
-config:
-  packages:
-    apache-thrift:
-      optional: True
-    doxygen:
-      optional: True
-    gnuradio:
-      gitbranch: main
-    gqrx:
-      forcebuild: True
-    liblog4cpp:
-      optional: True
+category: baseline
+inherit: autoconf
+satisfy:
+  deb: libspdlog-dev
+  rpm: spdlog-devel
+  port: spdlog
+  pacman: spdlog
+  portage: dev-logs/spdlog
+source: git+https://github.com/gabime/spdlog.git

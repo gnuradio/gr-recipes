@@ -17,47 +17,36 @@
 # Boston, MA 02110-1301, USA.
 #
 
+inherit: prefix
 depends:
-- boost
-- fftw
-- swig
-- gsl
-- gmp
-- uhd
-- alsa
-- qt5
-- qwt6
-- numpy
-- lxml
-- pycairo
-- pyqt5
-- liblog4cpp
-- zeromq
-- python-zmq
-- python-click-plugins
-- python-pyqtgraph
-- pyyaml
-- pygobject
-- gobject-introspection
-- gtk3
-- mako
-- doxygen
-description: Free and open source toolkit for software defined radio
-category: common
-satisfy:
-  deb: gnuradio-dev
-  rpm: gnuradio-devel
-  pacman: gnuradio
-  port: gnuradio
-  portage: net-wireless/gnuradio
-  pkgconfig: gnuradio-runtime
-source: git+https://github.com/gnuradio/gnuradio.git
-gitbranch: maint-3.8
-gitargs: --recursive
-vars: # We explicitly enable some subcomponents to make sure the build fails if they're not working:
-  config_opt: " -DENABLE_DOXYGEN=$builddocs -DENABLE_GR_AUDIO=ON -DENABLE_GR_BLOCKS=ON -DENABLE_GR_DIGITAL=ON -DENABLE_GR_FEC=ON -DENABLE_GR_FFT=ON -DENABLE_GR_FILTER=ON -DENABLE_GR_QTGUI=ON -DENABLE_GR_UHD=ON -DENABLE_PYTHON=ON -DENABLE_VOLK=ON -DENABLE_GRC=ON "
-inherit: cmake
-configure_static: cmake .. -DCMAKE_BUILD_TYPE=$cmakebuildtype -DCMAKE_INSTALL_PREFIX=$prefix -DENABLE_STATIC_LIBS=True $config_opt
-install: |
-    make install
-    make install
+        - gnuradio
+config:
+  packages:
+    apache-thrift:
+      optional: True
+    doxygen:
+      optional: True
+    gnuradio:
+      gitbranch: maint-3.8
+    gqrx:
+      forcebuild: True
+    libsndfile:
+      optional: True
+    pybind11:
+      optional: True
+    spdlog:
+      optional: True
+    gr-display:
+      gitbranch: v3.8
+    gr-fosphor:
+      gitbranch: gr3.8
+    gr-filerepeater:
+      gitbranch: maint-3.8
+    gr-gsm:
+      gitbranch: porting_to_gr38
+    gr-iqbal:
+      gitbranch: gr3.8
+    gr-lfast:
+      gitbranch: maint-3.8
+    gr-osmosdr:
+      gitbranch: gr3.8

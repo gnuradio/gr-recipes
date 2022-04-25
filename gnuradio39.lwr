@@ -24,11 +24,11 @@ config:
   packages:
     apache-thrift:
       optional: True
-    wxpython:
-      optional: True
     doxygen:
       optional: True
     gnuradio:
       gitbranch: maint-3.9
     gqrx:
       forcebuild: True
+    spdlog:
+      optional: True
