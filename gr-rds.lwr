@@ -21,7 +21,7 @@ category: common
 depends:
 - gnuradio
 description: FM RDS/TMC Transceiver
-gitbranch: maint-3.8
+gitbranch: maint-3.10
 inherit: cmake
 satisfy:
   port: gr-rds
