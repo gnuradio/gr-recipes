@@ -33,7 +33,7 @@ satisfy:
   port: uhd
   portage: net-wireless/uhd
 source: git+https://github.com/EttusResearch/uhd.git
-gitbranch: v4.2.0.0
+gitbranch: UHD-4.2
 inherit: cmake
 configuredir: host/build
 makedir: host/build
