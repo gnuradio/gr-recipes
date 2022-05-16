@@ -30,4 +30,5 @@ satisfy:
 satisfy@python3:
   deb: python3-pyqtgraph
   rpm: python3-pyqtgraph
+  port: py39-pyqtgraph
   pacman: python-pyqtgraph
