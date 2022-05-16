@@ -28,4 +28,5 @@ satisfy:
 satisfy@python3:
   deb: python3-click-plugins
   rpm: python3-click-plugins
+  port: py39-click-plugins
   pacman: python-click-plugins
