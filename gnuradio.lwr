@@ -47,6 +47,7 @@ depends:
 - spdlog
 - libsndfile
 - soapysdr
+- libiio
 description: Free and open source toolkit for software defined radio
 category: common
 satisfy:
