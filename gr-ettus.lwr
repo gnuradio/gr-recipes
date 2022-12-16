@@ -22,6 +22,6 @@ depends:
 - gnuradio
 - uhd
 description: Out-of-tree Module for Experimental Ettus Research Features
-gitbranch: master
+gitbranch: maint-3.8-uhd4.0
 inherit: cmake
 source: git+https://github.com/EttusResearch/gr-ettus.git
