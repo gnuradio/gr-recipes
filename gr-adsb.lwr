@@ -23,4 +23,4 @@ depends:
 description: GNU Radio ADSB decoder and framer
 gitbranch: master
 inherit: cmake
-source: git+https://github.com/wnagele/gr-adsb.git
+source: git+https://github.com/mhostetter/gr-adsb.git
