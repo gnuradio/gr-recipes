@@ -22,6 +22,7 @@ depends:
 - libxml
 - libusb
 description: Library for interfacing with IIO devices
+gitbranch: main
 gitrev: tags/v0.21
 inherit: cmake
 satisfy:
