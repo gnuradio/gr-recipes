@@ -21,6 +21,7 @@ category: common
 depends:
 - gnuradio
 - bladeRF
+- gr-osmosdr
 description: bladeRF hardware specific GNURadio sink and source blocks
 gitbranch: main
 inherit: cmake
