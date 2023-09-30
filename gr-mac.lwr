@@ -25,4 +25,4 @@ gitbranch: master
 inherit: cmake
 satisfy:
   port: gr-mac
-source: git+https://github.com/jmalsbury/gr-mac.git
+source: git+https://github.com/balint256/gr-mac.git
