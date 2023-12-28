@@ -33,4 +33,4 @@ inherit: cmake
 makedir: build
 satisfy:
   port: gnss-sdr
-source: git+http://github.com/gnss-sdr/gnss-sdr.git
+source: git+https://github.com/gnss-sdr/gnss-sdr.git
