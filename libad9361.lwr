@@ -25,3 +25,4 @@ inherit: cmake
 satisfy:
   deb: libad9361-0 >= 0.1 && libad9361-dev >= 0.1
 source: git+https://github.com/analogdevicesinc/libad9361-iio.git
+gitbranch: main
