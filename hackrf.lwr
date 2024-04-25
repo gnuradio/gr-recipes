@@ -21,6 +21,7 @@ category: hardware
 configuredir: host/build
 depends:
 - libusb
+- fftw
 description: Hardware designs and software for HackRF, a low cost, open source SDR platform
 gitbranch: master
 inherit: cmake
