@@ -24,7 +24,7 @@ depends:
 - liblog4cpp
 - gr-foo
 description: IEEE 802.11 a/g/p Transceiver
-gitbranch: maint-3.8
+gitbranch: maint-3.10
 inherit: cmake
 satisfy:
   port: gr-ieee802-11
