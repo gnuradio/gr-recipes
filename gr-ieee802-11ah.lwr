@@ -24,6 +24,6 @@ depends:
 - liblog4cpp
 - gr-foo
 description: An IEEE802.11ah (Wifi HaLow) transceiver for GNU Radio that works with 1MHz PPDUs.
-gitbranch: master
+gitbranch: maint-3.10
 inherit: cmake
 source: git+https://github.com/irongiant33/gr-ieee802-11ah.git
