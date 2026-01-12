@@ -20,9 +20,8 @@
 category: common
 depends:
 - gnuradio
-- gr-compat
 - libbtbb
 description: Bluetooth receiver implementation for GNU Radio
 gitbranch: master
 inherit: cmake
-source: git+https://github.com/greatscottgadgets/gr-bluetooth.git
+source: git+https://github.com/bkerler/gr-bluetooth.git
