@@ -23,7 +23,7 @@ depends:
 - libusb
 - fftw
 description: Hardware designs and software for HackRF, a low cost, open source SDR platform
-gitbranch: master
+gitbranch: main
 inherit: cmake
 installdir: host/build
 makedir: host/build
