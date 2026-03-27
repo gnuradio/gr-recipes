@@ -21,6 +21,7 @@ category: hardware
 configuredir: host/build
 depends:
 - libusb
+- libncurses5-dev
 description: Host side drivers, libraries and utilities to interact with bladeRF platform
 gitbranch: master
 inherit: cmake
